@@ -1,0 +1,35 @@
+server:
+  port: 8012
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+spring:
+  application:
+    name: LoginProvider
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    schema-username: root
+    data-password: 520972ysc*
+    url: jdbc:mysql://cd-cdb-mfedhjvs.sql.tencentcdb.com:62887/originbbs
+  redis:
+    host: 132.232.138.105
+    port: 6379
+    password:
+    timeout: 6000ms
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: -1ms
+        max-idle: 8
+        min-idle: 0
+    database: 0
+
+
+mybatis:
+  mapper-locations:classpath:cn/yd/springboot/mapper/*.xml
