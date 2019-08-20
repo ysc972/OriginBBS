@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LoginConsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/static/css/style.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/LoginProvider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MainCons" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MainConsumer" charset="UTF-8" />

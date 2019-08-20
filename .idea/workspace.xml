@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="eab14dd6-1447-4c55-b0f3-07659be995b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginConsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginConsumer/src/main/java/ysu/application/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginConsumer/src/main/java/ysu/application/LoginConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/LoginConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginConsumer/src/main/java/ysu/application/RedisSessionConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/src/main/java/ysu/application/RedisSessionConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginConsumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/META-INF/LoginConsumer.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/static/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/templates/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/templates/success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/ysu/application/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/ysu/application/LoginConsumerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/ysu/application/RedisSessionConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginProvider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginProvider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/MainProvider/target/" />
@@ -24,39 +45,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="edu.ysu" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/LoginProviderApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka/src/main/java/ysu/application/EurekaServerApplication.java">
+        <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/Service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="16" column="100" lean-forward="true" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/controller/TestController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="522">
+              <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,51 +81,87 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LoginProvider/pom.xml">
+        <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/po/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1900">
-              <caret line="100" column="7" selection-start-line="100" selection-start-column="7" selection-end-line="107" selection-end-column="27" />
+            <state relative-caret-position="76">
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka/pom.xml">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/net/NetworkInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="135">
+              <caret line="490" column="34" selection-start-line="490" selection-start-column="34" selection-end-line="490" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LoginConsumer/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session-core/2.0.8.RELEASE/spring-session-core-2.0.8.RELEASE.jar!/org/springframework/session/web/http/HttpSessionAdapter.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1349">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="135">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="117">
+              <caret line="121" selection-start-line="121" selection-end-line="121" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/resources/templates/test.html">
+        <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="146">
+              <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-41">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.11.RELEASE/spring-webmvc-5.0.11.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="421" selection-start-line="421" selection-end-line="421" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/util/EncryptUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,10 +171,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>src</find>
+      <find>fo</find>
+      <find>Log</find>
+      <find>select</find>
+      <find>spring-cloud-starter-eureka</find>
+      <find>spring-cloud-starter-netflix-eureka-client</find>
+      <find>form</find>
+      <find>settingsCheckBox01</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -133,19 +198,80 @@
         <option value="$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/LoginProviderApplication.java" />
         <option value="$PROJECT_DIR$/LoginProvider/src/main/resources/templates/test.html" />
         <option value="$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/LoginProvider/pom.xml" />
-        <option value="$PROJECT_DIR$/LoginConsumer/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/ysu/application/HelloController.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/ysu/application/RedisSessionConfig.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cd/yd/springboot/po/ContentExample.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cd/yd/springboot/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cd/yd/springboot/mapper/AttentionMapper.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cd/yd/springboot/mapper/CollectionMapper.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cd/yd/springboot/mapper/CommentMapper.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cd/yd/springboot/mapper/LabelMapper.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cd/yd/springboot/mapper/PermissionMapper.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cd/yd/springboot/mapper/PostMapper.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cd/yd/springboot/mapper/RolePermissionMapper.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cd/yd/springboot/mapper/SectionMapper.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cd/yd/springboot/mapper/SubscriptionMapper.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cd/yd/springboot/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cd/yd/springboot/mapper/ContentMapper.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/mapper/BannedMapper.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cd/yd/springboot/po/RoleExample.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/mapper/AttentionMapper.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/shiro/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/shiro/realm/MyShiroRealm.java" />
+        <option value="$PROJECT_DIR$/Zuul/src/main/java/ysu/application/SpringcloudSessionZuulApplication.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/service/UserService.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/LoginConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/Service/UserService.java" />
+        <option value="$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/service/UserService.java" />
+        <option value="$PROJECT_DIR$/LoginProvider/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/util/EncryptUtils.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/css/style.css" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/page-login.html" />
+        <option value="$PROJECT_DIR$/LoginConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/page-signup.html" />
+        <option value="$PROJECT_DIR$/LoginProvider/pom.xml" />
+        <option value="$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/Service/UserService.java" />
+        <option value="$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/po/User.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="55" />
-    <option name="y" value="145" />
-    <option name="width" value="1585" />
-    <option name="height" value="745" />
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MainCons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MainCons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1480" />
+    <option name="height" value="865" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -158,12 +284,147 @@
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginConsumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,14 +436,31 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/LoginProvider/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LoginConsumer/src/main/resources/static/js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.RemoteServersConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\OriginBBS(1)\OriginBBS\LoginProvider\src\main\resources" />
+      <recent name="C:\Users\Administrator\Desktop\OriginBBS(1)\OriginBBS\LoginConsumer\src\main\resources\static\js" />
+      <recent name="C:\Users\Administrator\Desktop\OriginBBS(1)\OriginBBS\LoginConsumer\src\main\resources\templates" />
+      <recent name="C:\Users\Administrator\Desktop\OriginBBS(1)\OriginBBS\LoginConsumer\src\main\java\cd\yd\springboot" />
+      <recent name="C:\Users\Administrator\Desktop\OriginBBS(1)\OriginBBS\LoginConsumer\src\main\resources\static" />
+      <recent name="C:\Users\Administrator\Desktop\OriginBBS(1)\OriginBBS\LoginConsumer\src\main\resources\static\css" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.yd.springboot.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\OriginBBS(1)\OriginBBS\LoginConsumer\src\main\resources\templates" />
+      <recent name="C:\Users\Administrator\Desktop\OriginBBS(1)\OriginBBS\LoginConsumer\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -197,16 +475,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LoginProviderApplication">
+  <component name="RunManager" selected="Spring Boot.LoginConsumerApplication">
+    <configuration name="EncryptUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.yd.springboot.util.EncryptUtils" />
+      <module name="LoginProvider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.yd.springboot.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="debug" type="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eurekaserver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ysu.application.*" />
+          <option name="PATTERN" value="cn.yd.springboot.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="ysu.application.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="LoginConsumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.yd.springboot.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.yd.springboot.LoginConsumerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -225,9 +542,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.EncryptUtils" />
+      <item itemvalue="Remote.debug" />
+      <item itemvalue="Spring Boot.LoginProviderApplication" />
+      <item itemvalue="Spring Boot.SpringcloudSessionZuulApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.LoginConsumerApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.LoginConsumerApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Application.EncryptUtils" />
       </list>
     </recent_temporary>
   </component>
@@ -243,66 +570,220 @@
       <updated>1566006419715</updated>
       <workItem from="1566006424671" duration="3100000" />
       <workItem from="1566010123796" duration="32000" />
-      <workItem from="1566010215991" duration="474000" />
+      <workItem from="1566010215991" duration="36900000" />
+      <workItem from="1566197866934" duration="2839000" />
+      <workItem from="1566200734340" duration="16659000" />
+      <workItem from="1566261112189" duration="6951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3606000" />
+    <option name="totallyTimeSpent" value="66481000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.21644296" visible="true" weight="0.17091152" />
+      <window_info id="Structure" order="1" sideWeight="0.78355706" side_tool="true" weight="0.22922252" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.78355706" side_tool="true" weight="0.22922252" />
+      <window_info id="Web" order="7" sideWeight="0.78355706" side_tool="true" weight="0.22922252" />
+      <window_info id="JRebel" order="8" sideWeight="0.78355706" side_tool="true" weight="0.22922252" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32936507" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32936507" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.77680963" weight="0.44973546" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.91219836" weight="0.41269842" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32936507" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32936507" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.19708994" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.22319035" side_tool="true" weight="0.31349206" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936507" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32936507" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32936507" />
+      <window_info anchor="bottom" id="Problems" order="16" weight="0.32936507" />
+      <window_info anchor="bottom" id="JRebel Executor" order="17" sideWeight="0.49932975" weight="0.48544973" />
+      <window_info anchor="bottom" id="JRebel Console" order="18" sideWeight="0.22252011" side_tool="true" weight="0.35978836" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="CDI" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="11" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.14021164" visible="true" weight="0.1689008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38624337" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32936507" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.19708994" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info id="Favorites" order="6" sideWeight="0.5021552" side_tool="true" weight="0.2533512" />
+      <window_info id="Web" order="7" sideWeight="0.5021552" side_tool="true" weight="0.2533512" />
+      <window_info id="JRebel" order="8" sideWeight="0.85978836" side_tool="true" weight="0.1689008" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32936507" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32936507" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.7774799" visible="true" weight="0.521164" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.5185185" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32936507" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32936507" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.19708994" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.53571427" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936507" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32936507" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32936507" />
+      <window_info anchor="bottom" id="Problems" order="16" weight="0.32936507" />
+      <window_info anchor="bottom" id="JRebel Executor" order="17" sideWeight="0.49932975" weight="0.48544973" />
+      <window_info anchor="bottom" id="JRebel Console" order="18" sideWeight="0.22252011" side_tool="true" weight="0.35978836" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="CDI" order="6" />
+      <window_info anchor="right" id="CDI" order="6" weight="0.3297587" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
-    </layout>
+      <window_info anchor="right" id="JRebel Setup Guide" order="11" weight="0.3297587" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/service/impl/UserServiceImpl.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/git">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.11.RELEASE/spring-context-5.0.11.RELEASE.jar!/org/springframework/context/annotation/ComponentScanAnnotationParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/ysu/application/LoginConsumerApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE.jar!/org/springframework/web/bind/annotation/PostMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-290">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/service/UserService.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.11.RELEASE/spring-context-5.0.11.RELEASE.jar!/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/po/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/po/UserExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/po/UserExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/ysu/application/MainConsApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/ysu/application/hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/static/js/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/LoginProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -318,63 +799,351 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/ysu/application/RedisSessionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/static/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/controller/TestController.java">
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/LoginConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LoginProvider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
-          <caret line="100" column="7" selection-start-line="100" selection-start-column="7" selection-end-line="107" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/rebel-remote.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LoginConsumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1349">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="380">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/resources/templates/test.html">
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/page-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/page-signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-configuration-processor/2.0.7.RELEASE/spring-boot-configuration-processor-2.0.7.RELEASE.jar!/org/springframework/boot/configurationprocessor/json/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2980">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginProvider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1.jar!/feign/Util.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1.jar!/feign/RequestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1.jar!/feign/SynchronousMethodHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1.jar!/feign/MethodMetadata.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+          <folding>
+            <element signature="e#1604#1605#0" expanded="true" />
+            <element signature="e#1640#1641#0" expanded="true" />
+            <element signature="e#2836#2837#0" expanded="true" />
+            <element signature="e#2872#2873#0" expanded="true" />
+            <element signature="e#3050#3051#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.7/jackson-databind-2.9.7.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="1137" selection-start-line="1137" selection-end-line="1137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.11.RELEASE/spring-webmvc-5.0.11.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.11.RELEASE/spring-webmvc-5.0.11.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="562" selection-start-line="562" selection-end-line="562" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.11.RELEASE/spring-core-5.0.11.RELEASE.jar!/org/springframework/util/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.11.RELEASE/spring-context-5.0.11.RELEASE.jar!/org/springframework/ui/ModelMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.11.RELEASE/spring-context-5.0.11.RELEASE.jar!/org/springframework/ui/ExtendedModelMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar!/org/apache/commons/logging/impl/Jdk14Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="e#2985#2986#0" expanded="true" />
+            <element signature="e#3049#3050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1.jar!/feign/ReflectiveFeign.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="328" selection-start-line="328" selection-end-line="328" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session-core/2.0.8.RELEASE/spring-session-core-2.0.8.RELEASE.jar!/org/springframework/session/web/http/HttpSessionAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.11.RELEASE/spring-webmvc-5.0.11.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="421" selection-start-line="421" selection-end-line="421" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/net/NetworkInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="490" column="34" selection-start-line="490" selection-start-column="34" selection-end-line="490" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/util/EncryptUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/po/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/Service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <caret line="16" column="100" lean-forward="true" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="522">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LoginProvider</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

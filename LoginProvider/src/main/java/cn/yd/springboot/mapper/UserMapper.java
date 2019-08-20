@@ -4,6 +4,7 @@ import cn.yd.springboot.po.User;
 import cn.yd.springboot.po.UserExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 public interface UserMapper {
     long countByExample(UserExample example);
