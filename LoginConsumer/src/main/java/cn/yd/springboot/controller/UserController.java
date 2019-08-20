@@ -28,7 +28,7 @@ public class UserController {
     @PostMapping("/login")
     public String login(@RequestParam("username")String username, @RequestParam("password") String password, Model model,HttpSession session,String URl){
         String userJson=userService.login(username,password);
-        if(userJson.equals("false")){
+        if(userJson.equals("false")||userJson.equals("null")){
             model.addAttribute("erro","用户名或密码错误");
             return "page-login";
         }else{
@@ -55,7 +55,7 @@ public class UserController {
        if(userService.isHaveByEmail(user)){
            model.addAttribute("erroEmail","邮箱已存在");
        }
-       if(!userService.isHaveByEmail(user)&&userService.isHaveByUserName(user)){
+       if(!userService.isHaveByEmail(user)&&!userService.isHaveByUserName(user)){
 
            userService.regist(user);
            session.setAttribute("user",user);
