@@ -20,10 +20,7 @@
         <module>PostProvider</module>
         <module>Zuul</module>
         <module>MainConsumer</module>
-        <module>MainCons</module>
     </modules>
-
-
 
     <parent>
         <groupId>org.springframework.boot</groupId>
