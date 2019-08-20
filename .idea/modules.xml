@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LoginConsumer/LoginConsumer.iml" filepath="$PROJECT_DIR$/LoginConsumer/LoginConsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoginProvider/LoginProvider.iml" filepath="$PROJECT_DIR$/LoginProvider/LoginProvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MainConsumer/MainConsumer.iml" filepath="$PROJECT_DIR$/MainConsumer/MainConsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MainProvider/MainProvider.iml" filepath="$PROJECT_DIR$/MainProvider/MainProvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ManagementConsumer/ManagementConsumer.iml" filepath="$PROJECT_DIR$/ManagementConsumer/ManagementConsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ManagementProvider/ManagementProvider.iml" filepath="$PROJECT_DIR$/ManagementProvider/ManagementProvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PostConsumer/PostConsumer.iml" filepath="$PROJECT_DIR$/PostConsumer/PostConsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PostProvider/PostProvider.iml" filepath="$PROJECT_DIR$/PostProvider/PostProvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zuul/Zuul.iml" filepath="$PROJECT_DIR$/Zuul/Zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu.ysu.iml" filepath="$PROJECT_DIR$/edu.ysu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eurekaserver.iml" filepath="$PROJECT_DIR$/eureka/eurekaserver.iml" />
+    </modules>
+  </component>
+</project>

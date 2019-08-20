@@ -6,19 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eurekaserver" />
+        <module name="LoginConsumer" />
+        <module name="LoginProvider" />
         <module name="MainConsumer" />
         <module name="MainProvider" />
         <module name="ManagementConsumer" />
-        <module name="LoginProvider" />
-        <module name="Zuul" />
-        <module name="PostProvider" />
-        <module name="MainCons" />
         <module name="ManagementProvider" />
-        <module name="LoginConsumer" />
-        <module name="eurekaserver" />
         <module name="PostConsumer" />
+        <module name="PostProvider" />
+        <module name="Zuul" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="edu.ysu" target="1.8" />
+      <module name="eurekaserver" target="1.8" />
+      <module name="LoginConsumer" target="1.8" />
+      <module name="LoginProvider" target="1.8" />
+      <module name="MainCons" target="1.8" />
+      <module name="MainConsumer" target="1.8" />
+      <module name="MainProvider" target="1.8" />
+      <module name="ManagementConsumer" target="1.8" />
+      <module name="ManagementProvider" target="1.8" />
+      <module name="PostConsumer" target="1.8" />
+      <module name="PostProvider" target="1.8" />
+      <module name="Zuul" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

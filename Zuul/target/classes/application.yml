@@ -13,7 +13,7 @@ zuul:
   routes:
     redis-session-service:
       path: /user-session/**
-      serviceId: service-session-redis
+      serviceId: service
       sensitiveHeaders: "*"
 ribbon:
   ReadTimeout: 5000

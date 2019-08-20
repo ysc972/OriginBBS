@@ -17,7 +17,7 @@ management:
         allowed-methods: "*"
 spring:
   application:
-    name: LoginConsumer
+    name: service
   http:
     encoding:
       charset: UTF-8
