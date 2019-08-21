@@ -86,7 +86,16 @@ public class UserServiceImpl  {
     }
 
 
+    /**
+     * 修改用户的信息
+     */
+    public int update(User user){
+        return userMapper.updateByPrimaryKeySelective(user);
+    }
 
+    public User getUserById(int id){
+        return userMapper.selectByPrimaryKey(id);
+    }
 
 
 }
