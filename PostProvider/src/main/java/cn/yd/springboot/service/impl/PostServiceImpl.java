@@ -1,9 +1,6 @@
 package cn.yd.springboot.service.impl;
 
-import cn.yd.springboot.mapper.ContentMapper;
-import cn.yd.springboot.mapper.LabelMapper;
-import cn.yd.springboot.mapper.PostMapper;
-import cn.yd.springboot.mapper.SectionMapper;
+import cn.yd.springboot.mapper.*;
 import cn.yd.springboot.po.*;
 import cn.yd.springboot.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +26,12 @@ public class PostServiceImpl implements PostService {
 
     @Autowired
     private LabelMapper labelMapper;
+
+    @Autowired
+    private CommentMapper commentMapper;
+
+    @Autowired
+    private ViewlikeMapper viewlikeMapper;
 
     @Override
     public boolean saveLabels(String labels,int postId) {
@@ -94,11 +97,61 @@ public class PostServiceImpl implements PostService {
     }
 
     @Override
-    public Content findContentByPosyid(int postId) {
+    public Content findContentByPostid(int postId) {
         ContentExample contentExample = new ContentExample();
         ContentExample.Criteria criteria = contentExample.createCriteria();
         criteria.andPostIdEqualTo(postId);
         List<Content> contentList = contentMapper.selectByExample(contentExample);
         return contentList.get(0);
     }
+
+    @Override
+    public List<List<Comment>> findCommentsByPostid(int postId) {
+        /*先找到该帖子下的所有评论*/
+        CommentExample commentExample = new CommentExample();
+        CommentExample.Criteria criteria = commentExample.createCriteria();
+        criteria.andPostIdEqualTo(postId);
+        List<Comment> tempList = commentMapper.selectByExample(commentExample);
+        /*再找所有根级评论*/
+        ArrayList list = new ArrayList();
+        for(Comment comment:tempList){
+            if(comment.getParentId()==0){
+                ArrayList temp = new ArrayList();
+                temp.add(comment);
+                int id = comment.getId();
+                for(Comment comment1:tempList){
+                    if(comment1.getParentId()==id) {
+                        temp.add(comment1);
+                    }
+                }
+                list.add(temp);
+            }
+        }
+        return list;
+    }
+
+    @Override
+    public boolean saveComment(Comment comment) {
+        commentMapper.insertSelective(comment);
+        return true;
+    }
+
+    @Override
+    public boolean uploadPost(Post post) {
+        postMapper.updateByPrimaryKeySelective(post);
+        return true;
+    }
+
+    @Override
+    public Viewlike findViewlike(int userId, int postId) {
+        ViewlikeExample viewlikeExample = new ViewlikeExample();
+        ViewlikeExample.Criteria criteria = viewlikeExample.createCriteria();
+        criteria.andUserIdEqualTo(userId);
+        criteria.andPostIdEqualTo(postId);
+        List<Viewlike> list = viewlikeMapper.selectByExample(viewlikeExample);
+        if(list.size() == 0)
+            return null;
+        return list.get(0);
+    }
+
 }

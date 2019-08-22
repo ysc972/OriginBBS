@@ -17,7 +17,7 @@ import org.springframework.web.multipart.MultipartFile;
 @Service
 public interface UploadService {
     @PostMapping(value = "/privde_update", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
-    String  update(@RequestParam String userJSON, @RequestPart(value = "file") MultipartFile file);
+    String  update(@RequestParam("userJSON") String userJSON, @RequestPart(value = "file") MultipartFile file);
 
     @Configuration
     class MultipartSupportConfig {

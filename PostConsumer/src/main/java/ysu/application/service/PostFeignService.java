@@ -1,7 +1,9 @@
 package ysu.application.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 import ysu.application.po.*;
 
 import java.util.List;
@@ -30,8 +32,11 @@ public interface PostFeignService {
     @GetMapping(value = "/findPostById")
     Post findPostById(@RequestParam("postId") int postId);
 
-    @GetMapping(value = "/findContentByPosyid")
-    Content findContentByPosyid(@RequestParam("postId") int postId);
+    @GetMapping(value = "/findViewlike")
+    Viewlike findViewlike(@RequestParam("userId") int userId,@RequestParam("postId") int postId);
+
+    @GetMapping(value = "/findContentByPostid")
+    Content findContentByPostid(@RequestParam("postId") int postId);
 
     @GetMapping(value = "/updateContentPostid")
     boolean updateContentPostid(@RequestParam("contentId") int contentId,@RequestParam("postId") int postId);
@@ -39,8 +44,19 @@ public interface PostFeignService {
     @PostMapping(value = "findLabelsByPostid")
     List<Label> findLabelsByPostid(@RequestParam("postId") int postId);
 
-    @PostMapping(value = "findContentByPostid")
-    List<Label> findContentByPostid(@RequestParam("postId") int postId);
+    @PostMapping(value = "findCommentsByPostid")
+    List<List<Comment>> findCommentsByPostid(@RequestParam("postId") int postId);
 
+    @PostMapping(value = "saveComment")
+    boolean saveComment(@RequestParam("comment") String comment);
+
+    @PostMapping(value = "uploadPost")
+    boolean uploadPost(@RequestParam("post") String post);
+
+    @PostMapping(value = "uploadFile")
+    boolean uploadFile(@RequestParam("file") String file);
+
+    @PostMapping(value = "saveFilePath")
+    boolean saveFilePath(@RequestParam("file") String file);
 
 }

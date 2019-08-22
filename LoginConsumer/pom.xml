@@ -95,7 +95,16 @@
                     <include>**/*.xml</include>
                 </includes>
             </resource>
-
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.yml</include>
+                    <include>**/*.properties</include>
+                    <include>templates/*.html</include>
+                    <include>static/**/*</include>
+                    <include>*.conf</include>
+                </includes>
+            </resource>
 
         </resources>
     </build>

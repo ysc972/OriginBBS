@@ -87,7 +87,7 @@ public class UserController {
 
 
     @PostMapping(value = "/privde_update", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
-    String  update(@RequestParam String userJSON, @RequestPart(value = "file") MultipartFile file) throws Exception {
+    String  update(@RequestParam("userJSON") String userJSON, @RequestPart(value = "file") MultipartFile file) throws Exception {
         ObjectMapper objectMapper=new ObjectMapper();
         User user=objectMapper.readValue(userJSON,User.class);
         System.out.println(user.getId());

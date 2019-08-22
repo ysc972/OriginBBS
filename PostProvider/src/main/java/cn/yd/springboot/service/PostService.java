@@ -1,9 +1,6 @@
 package cn.yd.springboot.service;
 
-import cn.yd.springboot.po.Content;
-import cn.yd.springboot.po.Label;
-import cn.yd.springboot.po.Post;
-import cn.yd.springboot.po.Section;
+import cn.yd.springboot.po.*;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -18,5 +15,9 @@ public interface PostService {
     boolean updateContentPostid(int contentId,int postId);
     Post findPostById(int postId);
     List<Label> findLabelsByPostid(int postId);
-    Content findContentByPosyid( int postId);
+    Content findContentByPostid( int postId);
+    List<List<Comment>> findCommentsByPostid(int  postId);
+    boolean saveComment(Comment comment);
+    boolean uploadPost(Post post);
+    Viewlike findViewlike(int userId,int postId);
 }

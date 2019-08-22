@@ -52,20 +52,7 @@
     </javaClientGenerator>
 
 	<!-- 指定数据库表 -->
-    <table schema="originbbs" tableName="Attention"/>
-    <table schema="originbbs" tableName="Banned"/>
-    <table schema="originbbs" tableName="Collection"/>
-    <table schema="originbbs" tableName="Comment"/>
-    <table schema="originbbs" tableName="Content"/>
-    <table schema="originbbs" tableName="Label"/>
-    <table schema="originbbs" tableName="Message"/>
-    <table schema="originbbs" tableName="Post"/>
-    <table schema="originbbs" tableName="Permission"/>
-    <table schema="originbbs" tableName="Role"/>
-    <table schema="originbbs" tableName="Role_Permission"/>
-    <table schema="originbbs" tableName="Section"/>
-    <table schema="originbbs" tableName="Subscription"/>
-    <table schema="originbbs" tableName="User"/>
-    <table schema="originbbs" tableName="User_role"/>
+    <table schema="originbbs" tableName="Viewlike"/>
+
   </context>
 </generatorConfiguration>
