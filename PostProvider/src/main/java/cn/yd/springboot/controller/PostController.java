@@ -93,4 +93,10 @@ public class PostController {
 
         return true;
     }
+
+    @GetMapping("/findUserById")
+    public User findUserById(@RequestParam("id") int id) throws Exception {
+
+        return postService.findUserById(id);
+    }
 }

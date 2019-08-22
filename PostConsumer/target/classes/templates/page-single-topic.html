@@ -243,7 +243,7 @@
             </div>
             <form id="comment_form" action="/uploadComment" method="post">
                 <input type="hidden" form="comment_form" id="comment" name="content">
-                <input type="hidden" form="comment_form" id="username" name="username">
+                <input type="hidden" form="comment_form" id="userId" name="userId" th:value="${session.user.id}">
                 <input type="hidden" form="comment_form" id="postid" name="postId" th:value="${post.id}">
                 <input type="hidden" form="comment_form" id="parentid" name="parentId">
             <div class="tt-wrapper-inner" id="postReplyText" style="display: none">

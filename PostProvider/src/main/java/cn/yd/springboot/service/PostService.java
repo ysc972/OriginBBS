@@ -20,4 +20,5 @@ public interface PostService {
     boolean saveComment(Comment comment);
     boolean uploadPost(Post post);
     Viewlike findViewlike(int userId,int postId);
+    User findUserById(int id);
 }

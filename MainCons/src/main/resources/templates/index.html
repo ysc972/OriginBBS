@@ -230,7 +230,7 @@
                     </svg>
                 </div>
                 <div class="tt-col-description">
-                    <h6 class="tt-title"><a href="page-single-topic.html">
+                    <h6 class="tt-title"><a href="111111">
                         <svg class="tt-icon">
                           <use xlink:href="#icon-pinned"></use>
                         </svg>
@@ -262,7 +262,7 @@
                     </svg>
                 </div>
                 <div class="tt-col-description">
-                    <h6 class="tt-title"><a href="page-single-topic.html">
+                    <h6 class="tt-title"><a th:href="@{/findPost(postId=${postvo.post.id},userId=${session.user.id })}">
                       <!--/*@thymesVar id="post" type=""*/-->
                       <span th:text="${postvo.post.title}"></span>
                     </a></h6>

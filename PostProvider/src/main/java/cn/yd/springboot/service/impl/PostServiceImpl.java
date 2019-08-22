@@ -33,6 +33,9 @@ public class PostServiceImpl implements PostService {
     @Autowired
     private ViewlikeMapper viewlikeMapper;
 
+    @Autowired
+    private UserMapper userMapper;
+
     @Override
     public boolean saveLabels(String labels,int postId) {
         System.out.println("1");
@@ -152,6 +155,11 @@ public class PostServiceImpl implements PostService {
         if(list.size() == 0)
             return null;
         return list.get(0);
+    }
+
+    @Override
+    public User findUserById(int id) {
+        return userMapper.selectByPrimaryKey(id);
     }
 
 }
