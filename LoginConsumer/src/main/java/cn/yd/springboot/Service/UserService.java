@@ -16,11 +16,11 @@ public interface UserService {
     @RequestMapping(value = "/privder_login", method = RequestMethod.POST)
     String login(@RequestParam("username") String username, @RequestParam("password")String password);
     @RequestMapping(value = "/privder_isHaveByUsername",method = RequestMethod.POST)
-     boolean isHaveByUserName(@RequestBody User user);
+     boolean isHaveByUserName(@RequestParam String userJson);
     @RequestMapping(value = "/privder_isHaveByEmail",method = RequestMethod.POST)
-    boolean isHaveByEmail(@RequestBody User user);
+    boolean isHaveByEmail(@RequestParam String userJson);
     @RequestMapping(value = "/privde_regist",method = RequestMethod.POST)
-    int regist(@RequestBody User user);
+    int regist(@RequestParam String userJson);
 
 
 }

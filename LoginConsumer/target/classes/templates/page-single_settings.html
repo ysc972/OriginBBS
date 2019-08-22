@@ -2600,7 +2600,7 @@
 			<div class="row no-gutter">
 				<div class="col-auto">
 					<div class="tt-avatar">
-                        <img id="img1"src="images/logo.png" class="round_icon"  alt="">
+                        <img id="img1"th:src="@{http://123.56.220.42/{pic}(pic=${session.user.pic})}" class="round_icon"  alt="">
 		            </div>
 				</div>
 				<div class="col-auto ml-auto">

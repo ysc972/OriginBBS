@@ -98,16 +98,19 @@ public class UserController {
      * @return
      */
     @RequestMapping("/regist")
-    public String regist(User user, HttpSession session, Model model,String URL){
-       if(userService.isHaveByUserName(user)) {
+    public String regist(User user, HttpSession session, Model model,String URL) throws JsonProcessingException {
+        ObjectMapper objectMapper=new ObjectMapper();
+        String userJson="";
+        userJson=objectMapper.writeValueAsString(user);
+       if(userService.isHaveByUserName(userJson)) {
            model.addAttribute("erroUsername", "用户名已存在");
        }
-       if(userService.isHaveByEmail(user)){
+       if(userService.isHaveByEmail(userJson)){
            model.addAttribute("erroEmail","邮箱已存在");
        }
-       if(!userService.isHaveByEmail(user)&&!userService.isHaveByUserName(user)){
+       if(!userService.isHaveByEmail(userJson)&&!userService.isHaveByUserName(userJson)){
 
-           userService.regist(user);
+           userService.regist(userJson);
            session.setAttribute("user",user);
            session.setAttribute("islogin",true);
            return "index";

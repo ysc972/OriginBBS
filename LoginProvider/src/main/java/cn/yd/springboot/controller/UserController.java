@@ -45,19 +45,27 @@ public class UserController {
         return json;
     }
     @RequestMapping(value = "/privder_isHaveByUsername",method = RequestMethod.POST)
-    boolean isHaveByUserName(@RequestBody User user){
+    boolean isHaveByUserName(@RequestParam String userJson) throws IOException {
+
+        ObjectMapper objectMapper=new ObjectMapper();
+        User user=objectMapper.readValue(userJson,User.class);
         return userService.isHaveByUserName(user.getUsername());
     }
 
 
 
     @RequestMapping(value = "/privder_isHaveByEmail",method = RequestMethod.POST)
-    boolean isHaveByEmail(@RequestBody User user){
+    boolean isHaveByEmail(@RequestParam String userJson) throws IOException {
+        ObjectMapper objectMapper=new ObjectMapper();
+        User user=objectMapper.readValue(userJson,User.class);
         return userService.isHaveByEmail(user.getEmail());
     }
 
     @RequestMapping(value = "/privde_regist",method = RequestMethod.POST)
-    int regist(@RequestBody User user){
+    int regist(@RequestParam String userJson) throws IOException {
+
+        ObjectMapper objectMapper=new ObjectMapper();
+        User user=objectMapper.readValue(userJson,User.class);
         return userService.insert(user);
     }
 //    @RequestMapping(value = "/privde_update",method = RequestMethod.POST)
@@ -84,8 +92,10 @@ public class UserController {
         User user=objectMapper.readValue(userJSON,User.class);
         System.out.println(user.getId());
         if(file!=null){
+            String originalName = file.getOriginalFilename();// 获取原文件名称
+            String mytype = originalName.substring(originalName.lastIndexOf(".")+1);
             FastDFSClient Client = new FastDFSClient("classpath:tracker.conf");
-            String Newname=Client.uploadFile(file.getBytes());
+            String Newname=Client.uploadFile(file.getBytes(),mytype);
             System.out.println(Newname);
             user.setPic(Newname);
         }
