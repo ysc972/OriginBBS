@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8601b353-7dcf-41ff-b96e-536b085e99a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/ysu/Model/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/ysu/Model/po/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/Contraller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/Contraller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/MainConsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/ysu/MainConsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/service/IndexService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/service/IndexService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainCons/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/Model/po/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/target/classes/ysu/Model/po/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/application/Contraller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/target/classes/ysu/application/Contraller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/application/MainConsApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/Contraller/SectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/Contraller/SectionController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/Zuul/target/" />
@@ -47,46 +34,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/po/Post.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/po/Attention.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/mapper/ContentMapper.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/po/CommentVo.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/po/Subscription.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/mapper/PostMapper.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/po/Collection.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/mapper/CollectionMapper.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/ysu/application/Contraller/CategoriesController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
@@ -95,11 +42,79 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/page-login.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/Service/UploadService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/page-single_threads.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/page-single_settings.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="23" column="12" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="23" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="264" column="93" lean-forward="true" selection-start-line="264" selection-start-column="93" selection-end-line="264" selection-end-column="95" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/MainProviderApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/Service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/ysu/MainConsApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="247">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,6 +135,8 @@
     <findStrings>
       <find>btn btn-primary</find>
       <find>gologi</find>
+      <find>th:</find>
+      <find>col-auto ml-auto</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,7 +159,6 @@
         <option value="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/service/IndexService.java" />
         <option value="$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/Contraller/SectionController.java" />
         <option value="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/service/LoginService.java" />
-        <option value="$PROJECT_DIR$/MainCons/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/Contraller/IndexController.java" />
         <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java" />
         <option value="$PROJECT_DIR$/MainCons/src/main/java/ysu/Model/po/User.java" />
@@ -150,22 +166,13 @@
         <option value="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/mapper/CollectionMapper.java" />
         <option value="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/MainConsApplication.java" />
         <option value="$PROJECT_DIR$/MainCons/src/main/java/ysu/MainConsApplication.java" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/resources/templates/index.html" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MainCons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MainCons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -289,6 +296,15 @@
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
               <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -372,6 +388,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ysu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="MainCons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ysu" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
@@ -515,20 +541,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MainConsApplication">
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eurekaserver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ysu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ysu.EurekaServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.MainProviderApplication (1)">
     <configuration name="LoginConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="LoginConsumer" />
       <extension name="coverage">
@@ -565,6 +578,19 @@
     <configuration name="MainConsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="MainCons" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ysu.MainConsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainProviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="MainProvider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ysu.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ysu.application.MainProviderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -606,10 +632,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.MainConsApplication" />
-        <item itemvalue="Spring Boot.MainConsApplication (1)" />
+        <item itemvalue="Spring Boot.MainProviderApplication (1)" />
         <item itemvalue="Spring Boot.LoginConsumerApplication" />
+        <item itemvalue="Spring Boot.MainConsApplication (1)" />
         <item itemvalue="Spring Boot.PostConsumerApplication" />
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -623,12 +649,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566441143146</updated>
-      <workItem from="1566441151556" duration="17338000" />
+      <workItem from="1566441151556" duration="22017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17338000" />
+    <option name="totallyTimeSpent" value="22017000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -649,11 +675,11 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Designer" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28150135" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28150135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32936507" />
+      <window_info anchor="bottom" id="Terminal" weight="0.1957672" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" weight="0.32936507" />
       <window_info anchor="bottom" id="Java Enterprise" weight="0.32936507" />
@@ -663,7 +689,7 @@
       <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936507" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44444445" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48015872" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994709" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -675,7 +701,7 @@
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Bean Validation" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -688,10 +714,10 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.28150135" />
+      <window_info content_ui="combo" id="Project" order="7" weight="0.28150135" />
       <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32936507" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.1957672" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32936507" />
@@ -701,8 +727,8 @@
       <window_info anchor="bottom" id="JRebel Executor" order="8" />
       <window_info anchor="bottom" id="JRebel Console" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="10" />
-      <window_info anchor="bottom" id="Find" order="11" />
-      <window_info anchor="bottom" id="Run" order="12" visible="true" weight="0.44444445" />
+      <window_info anchor="bottom" id="Find" order="11" weight="0.32936507" />
+      <window_info active="true" anchor="bottom" id="Run" order="12" visible="true" weight="0.48015872" />
       <window_info anchor="bottom" id="Debug" order="13" weight="0.3994709" />
       <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
@@ -714,7 +740,7 @@
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="CDI" order="6" />
-      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="7" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
@@ -738,31 +764,16 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/ysu/application/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/LoginConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/LoginProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -830,13 +841,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/Service/UploadService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -914,13 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/MainProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1017,20 +1014,6 @@
     <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/templates/messages-compose.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="175" column="14" selection-start-line="175" selection-start-column="14" selection-end-line="175" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="38" column="28" selection-start-line="37" selection-start-column="38" selection-end-line="38" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/ysu/application/Contraller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -1088,6 +1071,16 @@
     <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/mapper/CollectionMapper.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/ysu/MainConsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/ysu/application/Contraller/CategoriesController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -1095,12 +1088,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/ysu/MainConsApplication.java">
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/page-login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/page-single_threads.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/page-single_settings.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="152">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/Service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/Service/UploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/MainProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="264" column="93" lean-forward="true" selection-start-line="264" selection-start-column="93" selection-end-line="264" selection-end-column="95" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

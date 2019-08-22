@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
 <head>
     <meta charset="utf-8">
     <title>Forum - Responsive HTML5 Template</title>
@@ -10,6 +10,18 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .round_icon{
+            margin-left: 20px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+    </style>
 </head>
 <body>
 <!-- tt-mobile menu -->
@@ -167,10 +179,31 @@
                 </div>
                 <!-- /tt-search -->
             </div>
-            <div class="col-auto ml-auto">
+            <div th:if="${not session.islogin}"class="col-auto ml-auto">
                 <div class="tt-account-btn">
                     <a  th:href="@{/gologin(url=${#httpServletRequest.getRequestURL()},sufix=${#httpServletRequest.getQueryString()})}"  class="btn btn-primary">Log in</a>
                     <a href="http://192.168.242.1:8011/tologin" class="btn btn-secondary">Sign up</a>
+                </div>
+            </div>
+            <div th:if="${session.islogin}" class="col-auto ml-auto">
+                <div class="tt-user-info d-flex justify-content-center">
+                    <a href="#" class="tt-btn-icon">
+                        <i class="tt-icon"><svg><use xlink:href="#icon-notification"></use></svg></i>
+
+                    </a>
+                    <div class="tt-avatar-icon tt-size-md">
+<!--                        <i th:if="${not session.use.pic}" class="tt-icon"><svg><use xlink:href="#icon-ava-a"></use></svg></i>-->
+
+
+                        <img th:if="${session.user.pic}" id="img1"th:src="@{http://123.56.220.42/{pic}(pic=${session.user.pic})}" class="round_icon"  alt="">
+                    </div>
+                    <div class="custom-select-01">
+                        <select>
+                            <option value="Default Sorting">azyrusmax</option>
+                            <option value="value 01">value 01</option>
+                            <option value="value 02">value 02</option>
+                        </select>
+                    </div>
                 </div>
             </div>
         </div>
