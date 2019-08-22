@@ -23,7 +23,6 @@
       <module name="eurekaserver" target="1.8" />
       <module name="LoginConsumer" target="1.8" />
       <module name="LoginProvider" target="1.8" />
-      <module name="MainCons" target="1.8" />
       <module name="MainConsumer" target="1.8" />
       <module name="MainProvider" target="1.8" />
       <module name="ManagementConsumer" target="1.8" />
@@ -32,20 +31,5 @@
       <module name="PostProvider" target="1.8" />
       <module name="Zuul" target="1.8" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="LoginConsumer" options="-parameters" />
-      <module name="LoginProvider" options="-parameters" />
-      <module name="MainCons" options="-parameters" />
-      <module name="MainConsumer" options="-parameters" />
-      <module name="MainProvider" options="-parameters" />
-      <module name="ManagementConsumer" options="-parameters" />
-      <module name="ManagementProvider" options="-parameters" />
-      <module name="PostConsumer" options="-parameters" />
-      <module name="PostProvider" options="-parameters" />
-      <module name="Zuul" options="-parameters" />
-      <module name="eurekaserver" options="-parameters" />
-    </option>
   </component>
 </project>

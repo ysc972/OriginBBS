@@ -1,15 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html xmlns:th="https://www.thymeleaf.org">
 <head>
     <meta charset="utf-8">
     <title>Forum - Responsive HTML5 Template</title>
-    <meta name="keywords" content="HTML5 Template">
-    <meta name="description" content="Forum - Responsive HTML5 Template">
-    <meta name="author" content="Forum">
-    <link rel="shortcut icon" href="favicon/favicon.ico">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="keywords" content="HTML5 Template"/>
+    <meta name="description" content="Forum - Responsive HTML5 Template"/>
+    <meta name="author" content="Forum"/>
+    <link rel="shortcut icon" href="favicon/favicon.ico"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
 </head>
 <body>
 <!-- tt-mobile menu -->
@@ -42,25 +43,27 @@
                        Log into your account to unlock true power of community.
                     </div>
                 </a>
-                <form class="form-default">
+                <form  name="form_login"class="form-default" method="post" action="/login">
                     <div class="form-group">
                         <label for="loginUserName">Username</label>
-                        <input type="text" name="name" class="form-control" id="loginUserName" placeholder="azyrusmax">
+                        <input type="text" name="username" class="form-control" id="loginUserName" required placeholder="请输入用户名">
                     </div>
                     <div class="form-group">
                         <label for="loginUserPassword">Password</label>
-                        <input type="password" name="name" class="form-control" id="loginUserPassword" placeholder="************">
+                        <input type="password" name="password" class="form-control" id="loginUserPassword" required minlength="3" placeholder="请输入密码" >
+
                     </div>
                     <div class="row">
                         <div class="col">
                             <div class="form-group">
                                 <div class="checkbox-group">
-                                    <input type="checkbox" id="settingsCheckBox01" name="checkbox">
-                                    <label for="settingsCheckBox01">
-                                        <span class="check"></span>
-                                        <span class="box"></span>
-                                        <span class="tt-text">Remember me</span>
-                                    </label>
+<!--                                    <input type="checkbox" id="settingsCheckBox01" name="checkbox">-->
+<!--                                    <label for="settingsCheckBox01">-->
+<!--                                        <span class="check"></span>-->
+<!--                                        <span class="box"></span>-->
+<!--                                        <span class="tt-text">Remember me</span>-->
+<!--                                    </label>-->
+
                                 </div>
                             </div>
                         </div>
@@ -68,8 +71,11 @@
                             <a href="#" class="tt-underline">Forgot Password</a>
                         </div>
                     </div>
+                    <span th:text="${erro}"></span>
+
                     <div class="form-group">
-                        <a href="#" class="btn btn-secondary btn-block">Log in</a>
+                        <input type="submit" class="btn btn-secondary btn-block" value="Log in" />
+
                     </div>
                     <p>Or login with social network</p>
                     <div class="row">
@@ -98,7 +104,8 @@
                             </div>
                         </div>
                     </div>
-                    <p>Don’t have an account? <a href="#" class="tt-underline">Signup here</a></p>
+                    <p>Don’t have an account? <a href="/toregist" class="tt-underline">Signup here</a></p>
+
                     <div class="tt-notes">
                         By Logging in, signing in or continuing, I agree to
                         Forum19’s <a href="#" class="tt-underline">Terms of Use</a> and <a href="#" class="tt-underline">Privacy Policy.</a>
