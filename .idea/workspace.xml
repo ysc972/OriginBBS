@@ -2,477 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8601b353-7dcf-41ff-b96e-536b085e99a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/fastdfs/FastDFSClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/fastdfs/ImgInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/Viewlike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/ViewlikeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostConsumer/src/main/resources/client.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostConsumer/src/main/resources/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostConsumer/target/classes/client.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostConsumer/target/classes/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/RedisSessionConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/fastdfs/FastDFSClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/fastdfs/ImgInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/Viewlike.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/ViewlikeExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/ViewlikeExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/ViewlikeExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/ViewlikeExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/mapper/ViewlikeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/mapper/ViewlikeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/po/Viewlike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/po/ViewlikeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/mapper/ViewlikeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/mapper/ViewlikeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/po/Viewlike.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/po/ViewlikeExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/po/ViewlikeExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/po/ViewlikeExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/po/ViewlikeExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_autoscaling_1_11_277.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_core_1_11_277.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_ec2_1_11_277.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_route53_1_11_277.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_sts_1_11_277.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_jmespath_java_1_11_277.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_31_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_31_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_31_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_31_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_31_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_31_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_31_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_31_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_31_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_12_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_3_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_35.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_35.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_5_35.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_35.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_35.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_12_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_sisu_org_eclipse_sisu_inject_0_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_sisu_org_eclipse_sisu_plexus_0_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_maven_plugin_1_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_0_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_0_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_0_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_12_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_12_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_12_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_core_2_0_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_data_redis_2_0_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__software_amazon_ion_ion_java_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/LoginConsumer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/Service/UploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/Service/UploadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/src/main/java/ysu/application/RedisSessionConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/src/main/java/ysu/application/controller/Hello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/LoginConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/LoginConsumerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/Service/UploadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/Service/UploadService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/Service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Attention.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Attention.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/AttentionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/AttentionExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/AttentionExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/AttentionExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/AttentionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/AttentionExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/AttentionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/AttentionExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Banned.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Banned.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/BannedExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/BannedExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/BannedExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/BannedExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/BannedExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/BannedExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/BannedExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/BannedExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Collection.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Collection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/CollectionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/CollectionExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/CollectionExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/CollectionExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/CollectionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/CollectionExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/CollectionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/CollectionExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/CommentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/CommentExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/CommentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/CommentExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/CommentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/CommentExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/CommentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/CommentExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Content.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Content.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/ContentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/ContentExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/ContentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/ContentExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/ContentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/ContentExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/ContentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/ContentExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Label.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Label.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/LabelExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/LabelExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/LabelExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/LabelExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/LabelExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/LabelExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/LabelExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/LabelExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/MessageExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/MessageExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/MessageExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/MessageExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/MessageExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/MessageExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/MessageExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/MessageExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Permission.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Permission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/PermissionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/PermissionExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/PermissionExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/PermissionExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/PermissionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/PermissionExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/PermissionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/PermissionExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Post.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/PostExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/PostExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/PostExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/PostExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/PostExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/PostExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/PostExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/PostExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/RoleExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/RoleExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/RoleExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/RoleExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/RoleExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/RoleExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/RoleExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/RoleExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/RolePermission.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/RolePermission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/RolePermissionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/RolePermissionExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/RolePermissionExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/RolePermissionExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/RolePermissionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/RolePermissionExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/RolePermissionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/RolePermissionExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Section.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Section.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/SectionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/SectionExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/SectionExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/SectionExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/SectionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/SectionExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/SectionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/SectionExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Subscription.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/Subscription.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/SubscriptionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/SubscriptionExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/SubscriptionExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/SubscriptionExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/SubscriptionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/SubscriptionExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/SubscriptionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/SubscriptionExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/UserExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/UserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/UserExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/UserExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/UserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/UserExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/UserVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/po/UserVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/lib/fastdfs-client-java-1.27-RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/rebel-remote.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/rebel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/ysu/application/controller/Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/LoginProvider.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/LoginProviderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/LoginProviderApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/controller/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/controller/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/fastdfs/FastDFSClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/fastdfs/FastDFSClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/fastdfs/FastDFSFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/fastdfs/FastDFSFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/AttentionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/AttentionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/BannedMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/BannedMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/CollectionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/CollectionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/CommentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/CommentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/ContentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/ContentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/LabelMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/LabelMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/MessageMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/MessageMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/PermissionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/PermissionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/PostMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/PostMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/RoleMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/RolePermissionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/RolePermissionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/SectionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/SectionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/SubscriptionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/SubscriptionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Attention.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Attention.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/AttentionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/AttentionExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/AttentionExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/AttentionExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/AttentionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/AttentionExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/AttentionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/AttentionExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Banned.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Banned.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/BannedExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/BannedExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/BannedExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/BannedExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/BannedExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/BannedExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/BannedExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/BannedExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Collection.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Collection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/CollectionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/CollectionExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/CollectionExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/CollectionExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/CollectionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/CollectionExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/CollectionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/CollectionExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/CommentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/CommentExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/CommentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/CommentExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/CommentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/CommentExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/CommentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/CommentExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Content.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Content.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/ContentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/ContentExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/ContentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/ContentExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/ContentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/ContentExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/ContentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/ContentExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Label.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Label.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/LabelExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/LabelExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/LabelExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/LabelExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/LabelExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/LabelExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/LabelExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/LabelExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/MessageExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/MessageExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/MessageExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/MessageExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/MessageExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/MessageExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/MessageExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/MessageExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Permission.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Permission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/PermissionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/PermissionExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/PermissionExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/PermissionExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/PermissionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/PermissionExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/PermissionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/PermissionExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Post.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/PostExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/PostExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/PostExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/PostExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/PostExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/PostExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/PostExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/PostExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/RoleExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/RoleExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/RoleExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/RoleExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/RoleExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/RoleExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/RoleExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/RoleExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/RolePermission.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/RolePermission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/RolePermissionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/RolePermissionExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/RolePermissionExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/RolePermissionExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/RolePermissionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/RolePermissionExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/RolePermissionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/RolePermissionExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Section.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Section.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/SectionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/SectionExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/SectionExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/SectionExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/SectionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/SectionExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/SectionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/SectionExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Subscription.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/Subscription.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/SubscriptionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/SubscriptionExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/SubscriptionExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/SubscriptionExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/SubscriptionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/SubscriptionExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/SubscriptionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/SubscriptionExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/UserExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/UserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/UserExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/UserExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/UserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/po/UserExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/test/upload.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/test/upload.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/util/EncryptUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/util/EncryptUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainConsumer/MainConsumer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainProvider/MainProvider.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementConsumer/ManagementConsumer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagementProvider/ManagementProvider.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/PostConsumer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/RedisSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/RedisSessionConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/controller/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/service/PostFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/service/PostFeignService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/resources/templates/page-create-topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/resources/templates/page-create-topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/resources/templates/page-single-topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/resources/templates/page-single-topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/rebel-remote.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/rebel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/templates/page-create-topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/target/classes/templates/page-create-topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/templates/page-single-topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/target/classes/templates/page-single-topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/RedisSession.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/controller/PostController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/service/PostFeignService.class" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/service/PostFeignService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostProvider/PostProvider.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostProvider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PostProvider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/controller/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/po/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/service/PostService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/service/impl/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/service/impl/PostServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostProvider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/PostProvider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostProvider/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PostProvider/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostProvider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/PostProvider/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/controller/PostController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/service/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/service/PostService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/service/impl/PostServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/service/impl/PostServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zuul/Zuul.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zuul/target/classes/ysu/application/SpringcloudSessionZuulApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Zuul/target/classes/ysu/application/SpringcloudSessionZuulApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu.ysu.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/eurekaserver.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/target/classes/ysu/application/EurekaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/target/classes/ysu/application/EurekaServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCons/MainCons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/MainProvider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MainProvider/MainProvider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainProvider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/target/classes/rebel-remote.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/target/classes/rebel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/Zuul/target/" />
@@ -486,6 +46,7 @@
     <ignored path="$PROJECT_DIR$/MainProvider/target/" />
     <ignored path="$PROJECT_DIR$/LoginProvider/target/" />
     <ignored path="$PROJECT_DIR$/PostProvider/target/" />
+    <ignored path="$PROJECT_DIR$/MainCons/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -502,134 +63,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="25" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainCons/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-57">
+              <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/ysu/application/MainConsApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainProvider/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/MainProviderApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/Contraller/PersonalController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="517">
+              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/Contraller/SectionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/ysu/application/Contraller/CategoriesController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="64" column="14" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/controller/PostController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/PostConsumerApplication.java">
+        <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/ysu/application/service/SectionService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PostProvider/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/PostProviderApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/po/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#857#858#0" expanded="true" />
-                <element signature="e#885#886#0" expanded="true" />
-                <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1022#1023#0" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
-                <element signature="e#1087#1088#0" expanded="true" />
-                <element signature="e#1117#1118#0" expanded="true" />
-                <element signature="e#1147#1148#0" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
-                <element signature="e#1211#1212#0" expanded="true" />
-                <element signature="e#1269#1270#0" expanded="true" />
-                <element signature="e#1301#1302#0" expanded="true" />
-                <element signature="e#1329#1330#0" expanded="true" />
-                <element signature="e#1371#1372#0" expanded="true" />
-                <element signature="e#1435#1436#0" expanded="true" />
-                <element signature="e#1469#1470#0" expanded="true" />
-                <element signature="e#1499#1500#0" expanded="true" />
-                <element signature="e#1545#1546#0" expanded="true" />
-                <element signature="e#1615#1616#0" expanded="true" />
-                <element signature="e#1649#1650#0" expanded="true" />
-                <element signature="e#1681#1682#0" expanded="true" />
-                <element signature="e#1729#1730#0" expanded="true" />
-                <element signature="e#1771#1772#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-589">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/Service/UploadService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -648,277 +170,29 @@
         <option value="$PROJECT_DIR$/PostProvider/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/po/User.java" />
         <option value="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/User.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/MainProvider/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/Contraller/PersonalController.java" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/service/SectionService.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/Zuul/Zuul.iml" />
-        <option value="$PROJECT_DIR$/edu.ysu.iml" />
-        <option value="$PROJECT_DIR$/eureka/eurekaserver.iml" />
-        <option value="$PROJECT_DIR$/ManagementProvider/ManagementProvider.iml" />
-        <option value="$PROJECT_DIR$/ManagementConsumer/ManagementConsumer.iml" />
-        <option value="$PROJECT_DIR$/MainConsumer/MainConsumer.iml" />
-        <option value="$PROJECT_DIR$/PostConsumer/PostConsumer.iml" />
-        <option value="$PROJECT_DIR$/LoginConsumer/LoginConsumer.iml" />
-        <option value="$PROJECT_DIR$/MainProvider/MainProvider.iml" />
-        <option value="$PROJECT_DIR$/LoginProvider/LoginProvider.iml" />
-        <option value="$PROJECT_DIR$/PostProvider/PostProvider.iml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_54.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_autoscaling_1_11_277.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_core_1_11_277.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_ec2_1_11_277.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_route53_1_11_277.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_sts_1_11_277.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_jmespath_java_1_11_277.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_9_7.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_7.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_7.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_7.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_3_0_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_4_26.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_4_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_7_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_7_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_7_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_7_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_0_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_3_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_0_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_3_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_5_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_8.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_31_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_31_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_31_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_31_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_31_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_31_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_31_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_31_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_31_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_12_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_3_9.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_3_3_9.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_3_9.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_2_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_35.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_35.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_5_35.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_35.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_35.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_5_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_22.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_csource_fastdfs_client_java_1_27_SNAPSHOT.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_12_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_sisu_org_eclipse_sisu_inject_0_3_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_sisu_org_eclipse_sisu_plexus_0_3_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_maven_plugin_1_3_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_7_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_1_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_1_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_1_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_1_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_0_1_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_1_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_0_1_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_1_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_1_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_1_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_1_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_1_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_0_1_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_12_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_12_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_12_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_10_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_core_2_0_8_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_data_redis_2_0_8_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_11_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_11_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_11_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_11_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_11_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_11_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_11_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_11_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_11_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_11_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_11_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_11_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_11_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__software_amazon_ion_ion_java_1_0_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
-      </list>
-    </option>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MainCons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MainCons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="367" />
@@ -1085,62 +359,37 @@
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="PostConsumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="PostConsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="PostConsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="PostConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="PostConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="PostConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="PostConsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="po" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="PostConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -1148,25 +397,90 @@
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="PostProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="PostProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="MainCons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="MainCons" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="PostProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="MainCons" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="PostProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="MainCons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="MainCons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ysu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="MainCons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ysu" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="MainCons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ysu" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="Contraller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="MainProvider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="MainProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="MainProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="MainProvider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -1174,26 +488,37 @@
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="PostProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="MainProvider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="ysu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="PostProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="MainProvider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="po" type="462c0819:PsiDirectoryNode" />
+              <item name="ysu" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="PostProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="MainProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ysu" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="Contraller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="MainProvider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -1209,6 +534,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
@@ -1228,7 +554,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PostProviderApplication">
+  <component name="RunManager" selected="Spring Boot.MainConsApplication">
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eurekaserver" />
       <extension name="coverage">
@@ -1262,6 +588,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainConsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="MainCons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ysu.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ysu.application.MainConsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="MainProvider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ysu.application.MainProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PostConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="PostConsumer" />
       <extension name="coverage">
@@ -1291,6 +637,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MainConsApplication" />
         <item itemvalue="Spring Boot.PostConsumerApplication" />
         <item itemvalue="Spring Boot.LoginConsumerApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -1307,15 +654,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566441143146</updated>
-      <workItem from="1566441151556" duration="1691000" />
+      <workItem from="1566441151556" duration="5942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1691000" />
+    <option name="totallyTimeSpent" value="5942000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="JRebel" side_tool="true" />
       <window_info id="Image Layers" />
@@ -1324,13 +681,13 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Designer" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25536194" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25536194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32936507" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936507" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
@@ -1338,12 +695,12 @@
       <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33068782" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.49867725" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936507" />
+      <window_info anchor="right" id="Maven" visible="true" weight="0.1816354" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="CDI" />
@@ -1423,13 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/PostConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1441,13 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/PostProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1528,10 +871,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/util/EncryptUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="91" column="27" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="64" column="14" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/PostConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/PostProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/service/PostFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/ysu/application/MainConsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/MainProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/Contraller/PersonalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/Contraller/SectionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/ysu/application/Contraller/CategoriesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/ysu/application/service/SectionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
         </state>
       </provider>
     </entry>

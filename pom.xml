@@ -20,6 +20,8 @@
         <module>PostProvider</module>
         <module>Zuul</module>
         <module>MainConsumer</module>
+        <module>MainCons</module>
+
     </modules>
 
     <parent>

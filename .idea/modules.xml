@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LoginConsumer/LoginConsumer.iml" filepath="$PROJECT_DIR$/LoginConsumer/LoginConsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/LoginProvider/LoginProvider.iml" filepath="$PROJECT_DIR$/LoginProvider/LoginProvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MainCons/MainCons.iml" filepath="$PROJECT_DIR$/MainCons/MainCons.iml" />
       <module fileurl="file://$PROJECT_DIR$/MainConsumer/MainConsumer.iml" filepath="$PROJECT_DIR$/MainConsumer/MainConsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/MainProvider/MainProvider.iml" filepath="$PROJECT_DIR$/MainProvider/MainProvider.iml" />
       <module fileurl="file://$PROJECT_DIR$/ManagementConsumer/ManagementConsumer.iml" filepath="$PROJECT_DIR$/ManagementConsumer/ManagementConsumer.iml" />

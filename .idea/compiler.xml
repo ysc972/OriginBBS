@@ -12,6 +12,7 @@
         <module name="LoginProvider" />
         <module name="Zuul" />
         <module name="PostProvider" />
+        <module name="MainCons" />
         <module name="ManagementProvider" />
         <module name="LoginConsumer" />
         <module name="eurekaserver" />
@@ -23,6 +24,7 @@
       <module name="eurekaserver" target="1.8" />
       <module name="LoginConsumer" target="1.8" />
       <module name="LoginProvider" target="1.8" />
+      <module name="MainCons" target="1.8" />
       <module name="MainConsumer" target="1.8" />
       <module name="MainProvider" target="1.8" />
       <module name="ManagementConsumer" target="1.8" />
@@ -36,6 +38,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="LoginConsumer" options="-parameters" />
       <module name="LoginProvider" options="-parameters" />
+      <module name="MainCons" options="-parameters" />
       <module name="MainConsumer" options="-parameters" />
       <module name="MainProvider" options="-parameters" />
       <module name="ManagementConsumer" options="-parameters" />
