@@ -1,9 +1,10 @@
 server:
   port: 8017
+  max-http-header-size: 4048576
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://10.96.108.131:8761/eureka/
   instance:
     prefer-ip-address: true
 
@@ -24,9 +25,9 @@ spring:
       force: true
       enabled: true
   redis:
-    host: 132.232.138.105
+    host: 123.56.220.42
     port: 6379
-    password:
+    password: Root123456
     timeout: 6000ms
     lettuce:
       pool:

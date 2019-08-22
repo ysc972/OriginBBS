@@ -641,16 +641,22 @@
     var editor;
     $(document).ready(function () {
         var E = window.wangEditor
-        editor = new E('#editor') // 隐藏“网络图片”tab
-        editor.customConfig.showLinkImg = false
-// 或者 var editor = new E( document.getElementById('editor') )
-//editor.customConfig.qiniu = true
-// 通过 url 参数配置 debug 模式。url 中带有 wangeditor_debug_mode=1 才会开启 debug 模式
-        editor.customConfig.debug = location.href.indexOf('wangeditor_debug_mode=1') > 0
-        editor.customConfig.uploadImgServer = '/app/informationTime/editor';
-        editor.customConfig.uploadFileName = 'multiple'; //与后台获取文件名相同
-        editor.customConfig.linkImgCallback = function (url) {
-            console.log(url) // url 即插入图片的地址
+        editor = new E('#editor')
+        editor.customConfig.showLinkImg = false;// 隐藏“网络图片”tab
+        // 配置服务器端地址
+        editor.customConfig.uploadImgServer = 'uploadFile'
+        // 将图片大小限制为 3M
+        editor.customConfig.uploadImgMaxSize = 3 * 1024 * 1024;
+        // 自定义上传参数
+        editor.customConfig.uploadFileName = 'file'
+        editor.customConfig.uploadImgHooks = {
+            customInsert : function(insertImg, result, editor) {
+                var urls = new Array()
+                urls=result;//获取后台返回的url数组，然后遍历数组内容分别插入文档中
+                for (x in urls) {
+                    insertImg(urls[x]);
+                }
+            }
         }
         editor.create()
         var string_type = "";
@@ -662,8 +668,6 @@
             $('#post_type').val(string_type);
             $('#content').val(editor.txt.html());
             $('#post_form').submit();
-            //alert($('#content').val());
-
         })
     });
 </script>

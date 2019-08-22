@@ -1,15 +1,15 @@
 package cn.yd.springboot.controller;
 
-import cn.yd.springboot.po.Content;
-import cn.yd.springboot.po.Label;
-import cn.yd.springboot.po.Post;
-import cn.yd.springboot.po.Section;
+import cn.yd.springboot.po.*;
 import cn.yd.springboot.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import com.alibaba.fastjson.JSON;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.multipart.commons.CommonsMultipartFile;
 
+import java.io.File;
 import java.util.List;
 
 @RestController
@@ -54,13 +54,43 @@ public class PostController {
         return postService.findPostById(postId);
     }
 
-    @RequestMapping(value = "findContentByPosyid",method = RequestMethod.GET)
+    @RequestMapping(value = "findViewlike",method = RequestMethod.GET)
+    Viewlike findViewlike(@RequestParam("userId") int userId,@RequestParam("postId") int postId){
+        return postService.findViewlike(userId,postId);
+    }
+
+    @RequestMapping(value = "findContentByPostid",method = RequestMethod.GET)
     Content findContentByPosyid(@RequestParam("postId") int postId){
-        return postService.findContentByPosyid(postId);
+        return postService.findContentByPostid(postId);
     }
 
     @RequestMapping(value = "findLabelsByPostid",method = RequestMethod.POST)
     List<Label> findLabelByPostid(@RequestParam("postId") int postId){
         return postService.findLabelsByPostid(postId);
+    }
+
+    @RequestMapping(value = "findCommentsByPostid",method = RequestMethod.POST)
+    List<List<Comment>> findCommentsByPostid(@RequestParam("postId") int postId){
+        return postService.findCommentsByPostid(postId);
+    }
+
+    @RequestMapping(value = "saveComment",method = RequestMethod.POST)
+    boolean saveComment(@RequestParam("comment") String comment){
+        Comment comment1 = JSON.parseObject(comment,Comment.class);
+        postService.saveComment(comment1);
+        return true;
+    }
+
+    @RequestMapping(value = "uploadPost",method = RequestMethod.POST)
+    boolean uploadPost(@RequestParam("post") String post){
+        Post post1 = JSON.parseObject(post,Post.class);
+        postService.uploadPost(post1);
+        return true;
+    }
+
+    @RequestMapping(value = "uploadFile",method = RequestMethod.POST)
+    boolean uploadFile(@RequestParam("file") String file) throws Exception {
+
+        return true;
     }
 }
