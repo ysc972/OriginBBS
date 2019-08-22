@@ -20,7 +20,7 @@ public class SectionController {
     @Autowired
     private SectionService sectionService;
 
-    @RequestMapping(value = "getSection",method = RequestMethod.POST)
+    @RequestMapping(value = "getSectionVo",method = RequestMethod.POST)
     public List<SectionVo> getSectionVo()
     {
         return sectionService.getSectionVo();

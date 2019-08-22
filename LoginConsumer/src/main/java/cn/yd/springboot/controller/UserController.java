@@ -30,8 +30,12 @@ public class UserController {
      * 去登陆页面
      * @return
      */
+
     @RequestMapping("/tologin")
-    public String tologin(){
+    public String tologin(String url,HttpSession model,String sufix){
+        System.out.println(111111);
+        url=url+"?"+sufix;
+        model.setAttribute("url",url);
         return "page-login";
     }
 
@@ -47,6 +51,7 @@ public class UserController {
     @PostMapping("/login")
     public String login(@RequestParam("username")String username, @RequestParam("password") String password, Model model,HttpSession session,String URl){
         String userJson=userService.login(username,password);
+        URl=(String)session.getAttribute("url");
         if(userJson.equals("false")||userJson.equals("null")){
             model.addAttribute("erro","用户名或密码错误");
             return "page-login";
@@ -60,7 +65,7 @@ public class UserController {
                 e.printStackTrace();
             }
         }
-        return "redirect:tosettings";
+        return "redirect:"+URl;
     }
 
     /**
@@ -118,6 +123,17 @@ public class UserController {
        return "page-signup";
 
 
+    }
+
+    @RequestMapping("/getuser")
+    public String getuser(HttpSession session){
+        Object object=session.getAttribute("islogin");
+        User user=(User)session.getAttribute("user");
+        System.out.println(user.getUsername());
+
+        System.out.println(session.getAttribute("islogin"));
+        System.out.println(11111);
+        return "index";
     }
 
 }

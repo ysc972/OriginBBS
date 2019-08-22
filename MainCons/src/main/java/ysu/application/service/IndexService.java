@@ -23,4 +23,5 @@ public interface IndexService {
     @RequestMapping(value = "getVo",method =RequestMethod.POST,consumes = "application/json")
     public List<PostVo> getvo( @RequestParam("list") String list);
 
+
 }
