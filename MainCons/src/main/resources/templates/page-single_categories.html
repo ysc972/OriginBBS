@@ -46,16 +46,18 @@
                 </div>
                 <!-- /logo -->
                 <!-- desctop menu -->
-                  <div class="tt-desktop-menu">
+                <div class="tt-desktop-menu">
                     <nav>
                         <ul>
-                            <li><a href="page-categories.html"><span>Categories</span></a></li>
+                            <li><a href="/section"><span>Categories</span></a></li>
                             <li><a href="page-tabs.html"><span>Trending</span></a></li>
-                            <li><a href="page-create-topic.html"><span>New</span></a></li>
+                            <li>
+                                <a th:if="${session.islogin}" href="/toCreatePost"><span>New</span></a>
+                                <a th:if="${not session.islogin}" th:href="@{/gologin(url=${#httpServletRequest.getRequestURL()},sufix=${#httpServletRequest.getQueryString()})}"><span>New</span></a></li>
                             <li>
                                 <a href="page-single-user.html"><span>Pages</span></a>
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#">Home</a></li>
                                     <li><a href="page-single-topic.html">Single Topic</a></li>
                                     <li><a href="page-create-topic.html">Create Topic</a></li>
                                     <li><a href="page-single-user.html">Single User Activity</a></li>
@@ -205,7 +207,7 @@
                 </div>
                 <div class="tt-col-btn" id="js-settings-btn">
                     <div class="tt-list-btn">
-                        <a href="#" class="tt-btn-icon">
+                        <a th:if="${ziji}" href="#" class="tt-btn-icon">
                             <svg class="tt-icon">
                               <use xlink:href="#icon-settings_fill"></use>
                             </svg>
@@ -221,23 +223,23 @@
         <div class="tt-tab-wrapper">
             <div class="tt-wrapper-inner">
                 <ul class="nav nav-tabs pt-tabs-default" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link " data-toggle="tab" href="#tt-tab-01" role="tab"><span>Activity</span></a>
+                    <li class="nav-item show">
+                        <a class="nav-link active" data-toggle="tab" th:href="@{/getPersonalPost(userId=${curUser.id})}" role="tab"><span>Activity</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#tt-tab-02" role="tab"><span>Threads</span></a>
+                        <a class="nav-link"  th:href="@{/getPersonalMessage(userId=${curUser.id})}" ><span>Threads</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#tt-tab-03" role="tab"><span>Replies</span></a>
+                        <a class="nav-link"  th:href="@{/getPersonCommentVo(userId=${curUser.id})}"><span>Replies</span></a>
                     </li>
                     <li class="nav-item tt-hide-xs">
-                        <a class="nav-link" data-toggle="tab" href="#tt-tab-04" role="tab"><span>526 Followers</span></a>
+                        <a class="nav-link"  th:href="@{/getAttentionUser(userId=${curUser.id})}"><span>526 Followers</span></a>
                     </li>
                     <li class="nav-item tt-hide-md">
-                        <a class="nav-link" data-toggle="tab" href="#tt-tab-05" role="tab"><span>489 Following</span></a>
+                        <a class="nav-link"  href="#tt-tab-05" ><span>489 Following</span></a>
                     </li>
-                    <li class="nav-item tt-hide-md show">
-                        <a class="nav-link active" data-toggle="tab" href="#tt-tab-06" role="tab"><span>Categories</span></a>
+                    <li class="nav-item tt-hide-md">
+                        <a class="nav-link"  href="#tt-tab-06" ><span>Categories</span></a>
                     </li>
                 </ul>
             </div>
@@ -1480,308 +1482,25 @@
                             <div class="tt-col-value-large hide-mobile">Replies</div>
                             <div class="tt-col-value">Level</div>
                         </div>
-                        <div class="tt-item">
+                        <div th:each="attentionVo:${attentionVoList}" class="tt-item">
                             <div class="tt-col-merged">
                                 <div class="tt-col-avatar">
                                     <svg class="tt-icon">
-                                      <use xlink:href="#icon-ava-t"></use>
+                                        <use xlink:href="#icon-ava-t"></use>
                                     </svg>
                                 </div>
                                 <div class="tt-col-description">
-                                    <h6 class="tt-title"><a href="#">Taylor</a></h6>
+                                    <h6 class="tt-title"><a href="#" th:text="${attentionVo.user.username}"></a></h6>
                                     <ul>
-                                        <li><a href="mailto:@tails23">@tails23</a></li>
+                                        <li><a href="#" th:text="${attentionVo.user.email}"></a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="tt-col-value-large hide-mobile">10/01/2019</div>
-                            <div class="tt-col-value-large hide-mobile tt-color-select">10 hours ago</div>
-                            <div class="tt-col-value-large hide-mobile">0</div>
-                            <div class="tt-col-value-large hide-mobile">6</div>
-                            <div class="tt-col-value"><span class="tt-color16 tt-badge">LVL : 02</span></div>
-                        </div>
-                        <div class="tt-item">
-                            <div class="tt-col-merged">
-                                <div class="tt-col-avatar">
-                                    <svg class="tt-icon">
-                                      <use xlink:href="#icon-ava-k"></use>
-                                    </svg>
-                                </div>
-                                <div class="tt-col-description">
-                                    <h6 class="tt-title"><a href="#">Kevin</a></h6>
-                                    <ul>
-                                        <li><a href="mailto:@kevin27">@kevin27</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="tt-col-value-large hide-mobile">08/01/2019</div>
-                            <div class="tt-col-value-large hide-mobile tt-color-select">4 days ago</div>
-                            <div class="tt-col-value-large hide-mobile">0</div>
-                            <div class="tt-col-value-large hide-mobile">2</div>
-                            <div class="tt-col-value"><span class="tt-color17 tt-badge">LVL : 26</span></div>
-                        </div>
-                        <div class="tt-item">
-                            <div class="tt-col-merged">
-                                <div class="tt-col-avatar">
-                                    <svg class="tt-icon">
-                                      <use xlink:href="#icon-ava-g"></use>
-                                    </svg>
-                                </div>
-                                <div class="tt-col-description">
-                                    <h6 class="tt-title"><a href="#">Green</a></h6>
-                                    <ul>
-                                        <li><a href="mailto:@green63">@green63</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="tt-col-value-large hide-mobile">09/01/2019</div>
-                            <div class="tt-col-value-large hide-mobile tt-color-select">1 hours ago</div>
-                            <div class="tt-col-value-large hide-mobile">9</div>
-                            <div class="tt-col-value-large hide-mobile">32</div>
-                            <div class="tt-col-value"><span class="tt-color16 tt-badge">LVL : 06</span></div>
-                        </div>
-                        <div class="tt-item">
-                            <div class="tt-col-merged">
-                                <div class="tt-col-avatar">
-                                    <svg class="tt-icon">
-                                      <use xlink:href="#icon-ava-d"></use>
-                                    </svg>
-                                </div>
-                                <div class="tt-col-description">
-                                    <h6 class="tt-title"><a href="#">Dylan</a></h6>
-                                    <ul>
-                                        <li><a href="mailto:@dylan89">@dylan89</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="tt-col-value-large hide-mobile">09/01/2019</div>
-                            <div class="tt-col-value-large hide-mobile tt-color-select">18 hours ago</div>
-                            <div class="tt-col-value-large hide-mobile">2</div>
-                            <div class="tt-col-value-large hide-mobile">3</div>
-                            <div class="tt-col-value"><span class="tt-color17 tt-badge">LVL : 27</span></div>
-                        </div>
-                        <div class="tt-item">
-                            <div class="tt-col-merged">
-                                <div class="tt-col-avatar">
-                                    <svg class="tt-icon">
-                                      <use xlink:href="#icon-ava-p"></use>
-                                    </svg>
-                                </div>
-                                <div class="tt-col-description">
-                                    <h6 class="tt-title"><a href="#">Peterson</a></h6>
-                                    <ul>
-                                        <li><a href="mailto:@dylan89">@dylan89</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="tt-col-value-large hide-mobile">09/01/2019</div>
-                            <div class="tt-col-value-large hide-mobile tt-color-select">3 days ago</div>
-                            <div class="tt-col-value-large hide-mobile">8</div>
-                            <div class="tt-col-value-large hide-mobile">21</div>
-                            <div class="tt-col-value"><span class="tt-color18 tt-badge">LVL : 13</span></div>
-                        </div>
-                        <div class="tt-item">
-                            <div class="tt-col-merged">
-                                <div class="tt-col-avatar">
-                                    <svg class="tt-icon">
-                                      <use xlink:href="#icon-ava-a"></use>
-                                    </svg>
-                                </div>
-                                <div class="tt-col-description">
-                                    <h6 class="tt-title"><a href="#">azyrus</a></h6>
-                                    <ul>
-                                        <li><a href="mailto:@azyrus21">@azyrus21</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="tt-col-value-large hide-mobile">08/01/2019</div>
-                            <div class="tt-col-value-large hide-mobile tt-color-select">2 days ago</div>
-                            <div class="tt-col-value-large hide-mobile">19</div>
-                            <div class="tt-col-value-large hide-mobile">32</div>
-                            <div class="tt-col-value"><span class="tt-color18 tt-badge">LVL : 18</span></div>
-                        </div>
-                        <div class="tt-item">
-                            <div class="tt-col-merged">
-                                <div class="tt-col-avatar">
-                                    <svg class="tt-icon">
-                                      <use xlink:href="#icon-ava-s"></use>
-                                    </svg>
-                                </div>
-                                <div class="tt-col-description">
-                                    <h6 class="tt-title"><a href="#">Smith</a></h6>
-                                    <ul>
-                                        <li><a href="mailto:@smith45">@smith45</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="tt-col-value-large hide-mobile">08/01/2019</div>
-                            <div class="tt-col-value-large hide-mobile tt-color-select">1 hours ago</div>
-                            <div class="tt-col-value-large hide-mobile">6</div>
-                            <div class="tt-col-value-large hide-mobile">13</div>
-                            <div class="tt-col-value"><span class="tt-color07 tt-badge">LVL : 42</span></div>
-                        </div>
-                        <div class="tt-item">
-                            <div class="tt-col-merged">
-                                <div class="tt-col-avatar">
-                                    <svg class="tt-icon">
-                                      <use xlink:href="#icon-ava-u"></use>
-                                    </svg>
-                                </div>
-                                <div class="tt-col-description">
-                                    <h6 class="tt-title"><a href="#">Usain</a></h6>
-                                    <ul>
-                                        <li><a href="mailto:@bolt24">@bolt24</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="tt-col-value-large hide-mobile">07/01/2019</div>
-                            <div class="tt-col-value-large hide-mobile tt-color-select">9 hours ago</div>
-                            <div class="tt-col-value-large hide-mobile">20</div>
-                            <div class="tt-col-value-large hide-mobile">43</div>
-                            <div class="tt-col-value"><span class="tt-color17 tt-badge">LVL : 21</span></div>
-                        </div>
-                        <div class="tt-item">
-                            <div class="tt-col-merged">
-                                <div class="tt-col-avatar">
-                                    <svg class="tt-icon">
-                                      <use xlink:href="#icon-ava-l"></use>
-                                    </svg>
-                                </div>
-                                <div class="tt-col-description">
-                                    <h6 class="tt-title"><a href="#">Larry</a></h6>
-                                    <ul>
-                                        <li><a href="mailto:@larry74">@larry74</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="tt-col-value-large hide-mobile">06/01/2019</div>
-                            <div class="tt-col-value-large hide-mobile tt-color-select">6 hours ago</div>
-                            <div class="tt-col-value-large hide-mobile">2</div>
-                            <div class="tt-col-value-large hide-mobile">5</div>
-                            <div class="tt-col-value"><span class="tt-color19 tt-badge">LVL : 39</span></div>
-                        </div>
-                        <div class="tt-item">
-                            <div class="tt-col-merged">
-                                <div class="tt-col-avatar">
-                                    <svg class="tt-icon">
-                                      <use xlink:href="#icon-ava-j"></use>
-                                    </svg>
-                                </div>
-                                <div class="tt-col-description">
-                                    <h6 class="tt-title"><a href="#">Jordan</a></h6>
-                                    <ul>
-                                        <li><a href="mailto:@jordan36">@jordan36</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="tt-col-value-large hide-mobile">05/01/2019</div>
-                            <div class="tt-col-value-large hide-mobile tt-color-select">6 hours ago</div>
-                            <div class="tt-col-value-large hide-mobile">6</div>
-                            <div class="tt-col-value-large hide-mobile">23</div>
-                            <div class="tt-col-value"><span class="tt-color07 tt-badge">LVL : 46</span></div>
-                        </div>
-                        <div class="tt-item">
-                            <div class="tt-col-merged">
-                                <div class="tt-col-avatar">
-                                    <svg class="tt-icon">
-                                      <use xlink:href="#icon-ava-c"></use>
-                                    </svg>
-                                </div>
-                                <div class="tt-col-description">
-                                    <h6 class="tt-title"><a href="#">Clive</a></h6>
-                                    <ul>
-                                        <li><a href="mailto:@clive45">@clive45</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="tt-col-value-large hide-mobile">05/01/2019</div>
-                            <div class="tt-col-value-large hide-mobile tt-color-select">8 hours ago</div>
-                            <div class="tt-col-value-large hide-mobile">2</div>
-                            <div class="tt-col-value-large hide-mobile">8</div>
-                            <div class="tt-col-value"><span class="tt-color18 tt-badge">LVL : 16</span></div>
-                        </div>
-                        <div class="tt-item">
-                            <div class="tt-col-merged">
-                                <div class="tt-col-avatar">
-                                    <svg class="tt-icon">
-                                      <use xlink:href="#icon-ava-m"></use>
-                                    </svg>
-                                </div>
-                                <div class="tt-col-description">
-                                    <h6 class="tt-title"><a href="#">Mitchell</a></h6>
-                                    <ul>
-                                        <li><a href="mailto:@mitchell73">@mitchell73</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="tt-col-value-large hide-mobile">05/01/2019</div>
-                            <div class="tt-col-value-large hide-mobile tt-color-select">1 hours ago</div>
-                            <div class="tt-col-value-large hide-mobile">1</div>
-                            <div class="tt-col-value-large hide-mobile">3</div>
-                            <div class="tt-col-value"><span class="tt-color19 tt-badge">LVL : 33</span></div>
-                        </div>
-                        <div class="tt-item">
-                            <div class="tt-col-merged">
-                                <div class="tt-col-avatar">
-                                    <svg class="tt-icon">
-                                      <use xlink:href="#icon-ava-v"></use>
-                                    </svg>
-                                </div>
-                                <div class="tt-col-description">
-                                    <h6 class="tt-title"><a href="#">Vans</a></h6>
-                                    <ul>
-                                        <li><a href="mailto:@vans49">@vans49</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="tt-col-value-large hide-mobile">04/01/2019</div>
-                            <div class="tt-col-value-large hide-mobile tt-color-select">23 hours ago</div>
-                            <div class="tt-col-value-large hide-mobile">4</div>
-                            <div class="tt-col-value-large hide-mobile">9</div>
-                            <div class="tt-col-value"><span class="tt-color20 tt-badge">LVL : 99</span></div>
-                        </div>
-                        <div class="tt-item">
-                            <div class="tt-col-merged">
-                                <div class="tt-col-avatar">
-                                    <svg class="tt-icon">
-                                      <use xlink:href="#icon-ava-b"></use>
-                                    </svg>
-                                </div>
-                                <div class="tt-col-description">
-                                    <h6 class="tt-title"><a href="#">Baker</a></h6>
-                                    <ul>
-                                        <li><a href="mailto:@baker65">@baker65</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="tt-col-value-large hide-mobile">03/01/2019</div>
-                            <div class="tt-col-value-large hide-mobile tt-color-select">4 hours ago</div>
-                            <div class="tt-col-value-large hide-mobile">28</div>
-                            <div class="tt-col-value-large hide-mobile">86</div>
-                            <div class="tt-col-value"><span class="tt-color07 tt-badge">LVL : 43</span></div>
-                        </div>
-                        <div class="tt-item">
-                            <div class="tt-col-merged">
-                                <div class="tt-col-avatar">
-                                    <svg class="tt-icon">
-                                      <use xlink:href="#icon-ava-f"></use>
-                                    </svg>
-                                </div>
-                                <div class="tt-col-description">
-                                    <h6 class="tt-title"><a href="#">Foster</a></h6>
-                                    <ul>
-                                        <li><a href="mailto:@foster87">@foster87</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="tt-col-value-large hide-mobile">03/01/2019</div>
-                            <div class="tt-col-value-large hide-mobile tt-color-select">7 hours ago</div>
-                            <div class="tt-col-value-large hide-mobile">2</div>
-                            <div class="tt-col-value-large hide-mobile">16</div>
-                            <div class="tt-col-value"><span class="tt-color21 tt-badge">LVL : 62</span></div>
                         </div>
                     </div>
+
                 </div>
+
                 <div class="tab-pane tt-indent-none" id="tt-tab-05" role="tabpanel">
                     <div class="tt-followers-list">
                         <div class="tt-list-header">
@@ -2566,95 +2285,109 @@
     </div>
 </main>
 <div id="js-popup-settings" class="tt-popup-settings">
-	<div class="tt-btn-col-close">
-		<a href="#">
+    <div class="tt-btn-col-close">
+        <a href="#">
 			<span class="tt-icon-title">
 				<svg>
 					<use xlink:href="#icon-settings_fill"></use>
 				</svg>
 			</span>
-			<span class="tt-icon-text">
+            <span class="tt-icon-text">
 				Settings
 			</span>
-			<span class="tt-icon-close">
+            <span class="tt-icon-close">
 				<svg>
 					<use xlink:href="#icon-cancel"></use>
 				</svg>
 			</span>
-		</a>
-	</div>
-	<form class="form-default">
-		<div class="tt-form-upload">
-			<div class="row no-gutter">
-				<div class="col-auto">
-					<div class="tt-avatar">
-		                <svg>
-		                  <use xlink:href="#icon-ava-d"></use>
-		                </svg>
-		            </div>
-				</div>
-				<div class="col-auto ml-auto">
-					<a href="#" class="btn btn-primary">Upload Picture</a>
-				</div>
-			</div>
-		</div>
-		<div class="form-group">
-		    <label for="settingsUserName">Username</label>
-		   <input type="text" name="name" class="form-control" id="settingsUserName" placeholder="azyrusmax">
-		</div>
-		<div class="form-group">
-		    <label for="settingsUserEmail">Email</label>
-		   <input type="text" name="name" class="form-control" id="settingsUserEmail" placeholder="Sample@sample.com">
-		</div>
-		<div class="form-group">
-		    <label for="settingsUserPassword">Password</label>
-		   <input type="password" name="name" class="form-control" id="settingsUserPassword" placeholder="************">
-		</div>
-		<div class="form-group">
-		    <label for="settingsUserLocation">Location</label>
-		   <input type="text" name="name" class="form-control" id="settingsUserLocation" placeholder="Slovakia">
-		</div>
-		<div class="form-group">
-		    <label for="settingsUserWebsite">Website</label>
-		   <input type="text" name="name" class="form-control" id="settingsUserWebsite" placeholder="Sample.com">
-		</div>
-		<div class="form-group">
-		    <label for="settingsUserAbout">About</label>
-		    <textarea name="" placeholder="Few words about you" class="form-control" id="settingsUserAbout"></textarea>
-		</div>
-		<div class="form-group">
-			<label for="settingsUserAbout">Notify me via Email</label>
-			<div class="checkbox-group">
-		        <input type="checkbox" id="settingsCheckBox01" name="checkbox">
-		        <label for="settingsCheckBox01">
-		            <span class="check"></span>
-		            <span class="box"></span>
-		            <span class="tt-text">When someone replies to my thread</span>
-		        </label>
-		    </div>
-		    <div class="checkbox-group">
-		        <input type="checkbox" id="settingsCheckBox02" name="checkbox">
-		        <label for="settingsCheckBox02">
-		            <span class="check"></span>
-		            <span class="box"></span>
-		            <span class="tt-text">When someone likes my thread or reply</span>
-		        </label>
-		    </div>
-		    <div class="checkbox-group">
-		        <input type="checkbox" id="settingsCheckBox03" name="checkbox">
-		        <label for="settingsCheckBox03">
-		            <span class="check"></span>
-		            <span class="box"></span>
-		            <span class="tt-text">When someone mentions me</span>
-		        </label>
-		    </div>
-		</div>
-		<div class="form-group">
-			<a href="#" class="btn btn-secondary">Save</a>
-		</div>
-		</form>
+        </a>
+    </div>
+    <form id="update"class="form-default" action="/update_user" method="post" enctype="multipart/form-data">
+        <div class="tt-form-upload">
+            <div class="row no-gutter">
+                <div class="col-auto">
+                    <div class="tt-avatar">
+                        <img id="img11"th:src="@{http://123.56.220.42/{pic}(pic=${session.user.pic})}" class="round_icon"  alt="">
+                    </div>
+                </div>
+                <div class="col-auto ml-auto">
+                    <label for="file"  class="btn btn-primary" style="margin-top:17px">Upload Picture</label>
+                    <input form="update" type="file"name="file" id="file" hidden/>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            document.querySelector("#file").onchange = function() {
+                var files = this.files;
+
+                //通过上传文件的临时地址进行预览，更方便
+                document.querySelector("#img11").src = window.URL.createObjectURL(files[0]);
+                console.log(files[0]);//files[0]就是上传文件的临时地址
+            }
+        </script>
+        <div class="form-group">
+            <input type="text"  name="id"th:value="${session.user.id}" hidden />
+            <input type="text"  name="url" th:value="${#httpServletRequest.getRequestURL()}" hidden />
+            <input type="text"  name="sufix" th:value="${#httpServletRequest.getQueryString()}" hidden />
+            <label for="username">Username</label>
+            <input form="update" type="text" name="username" class="form-control" id="username" th:value="${session.user.username}"
+                   readonly>
+
+            <label for="email">Email</label>
+            <input form="update" type="text" name="email" class="form-control" id="email" th:value="${session.user.email}"
+                   readonly>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone</label>
+            <input form="update"type="text" name="phone" class="form-control" id="phone" th:value="${session.user.email}"
+                   readonly>
+
+            <label for="profile">Profile</label>
+            <textarea form="update" name="profile"  class="form-control" th:text="${session.user.profile}"
+                      id="profile"></textarea>
+        </div>
+
+
+        <div class="form-group">
+            <label for="profile">Notify me via Email</label>
+            <div class="checkbox-group">
+                <input type="checkbox" id="settingsCheckBox01" name="checkbox">
+                <label for="settingsCheckBox01">
+                    <span class="check"></span>
+                    <span class="box"></span>
+                    <span class="tt-text">When someone replies to my thread</span>
+                </label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="settingsCheckBox02" name="checkbox">
+                <label for="settingsCheckBox02">
+                    <span class="check"></span>
+                    <span class="box"></span>
+                    <span class="tt-text">When someone likes my thread or reply</span>
+                </label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="settingsCheckBox03" name="checkbox">
+                <label for="settingsCheckBox03">
+                    <span class="check"></span>
+                    <span class="box"></span>
+                    <span class="tt-text">When someone mentions me</span>
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <input form="update"type="submit" class="btn btn-secondary" value="Save" />
+        </div>
+    </form>
 </div>
-<a href="page-create-topic.html" class="tt-btn-create-topic">
+<a th:if="${session.islogin}" href="/toCreatePost"  class="tt-btn-create-topic">
+    <span class="tt-icon">
+        <svg>
+          <use xlink:href="#icon-create_new"></use>
+        </svg>
+    </span>
+</a>
+<a th:if="${not session.islogin}" th:href="@{/gologin(url=${#httpServletRequest.getRequestURL()},sufix=${#httpServletRequest.getQueryString()})}" class="tt-btn-create-topic">
     <span class="tt-icon">
         <svg>
           <use xlink:href="#icon-create_new"></use>

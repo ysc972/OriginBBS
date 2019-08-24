@@ -2,100 +2,280 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8601b353-7dcf-41ff-b96e-536b085e99a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_5_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_sockjs_client_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_stomp_websocket_2_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/Contraller/CategoriesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/CategoriesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/Contraller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/Contraller/PersonalPostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/PersonalPostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/RedisSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/RedisSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/service/IndexService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/service/IndexService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/service/PersonalPostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/service/PersonalPostService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/service/SectionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/service/SectionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginConsumer/LoginConsumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/LoginConsumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/page-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/page-login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/cn/yd/springboot/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginConsumer/target/classes/templates/page-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/LoginConsumer/target/classes/templates/page-login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginProvider/LoginProvider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/LoginProvider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginProvider/target/classes/cn/yd/springboot/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/MainCons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/MainCons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/PersonalPostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/PersonalPostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/po/PostVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/po/PostVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/service/IndexService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/service/IndexService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/service/PersonalPostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/service/PersonalPostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/ysu/MainConsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/src/main/java/ysu/Model/po/PostVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/java/ysu/Model/po/PostVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainCons/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-categories-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-categories-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single-user.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single-user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_followers.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_followers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_replies.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_replies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_threads.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_threads.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/cn/yd/springboot/mapper/AttentionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/cn/yd/springboot/mapper/BannedMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/cn/yd/springboot/mapper/CollectionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/cn/yd/springboot/mapper/CommentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/cn/yd/springboot/mapper/ContentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/cn/yd/springboot/mapper/LabelMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/cn/yd/springboot/mapper/MessageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/cn/yd/springboot/mapper/PermissionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/cn/yd/springboot/mapper/PostMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/cn/yd/springboot/mapper/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/cn/yd/springboot/mapper/RolePermissionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/cn/yd/springboot/mapper/SectionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/cn/yd/springboot/mapper/SubscriptionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/cn/yd/springboot/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/cn/yd/springboot/po/PostVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/target/classes/cn/yd/springboot/po/PostVo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainCons/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/application/Contraller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/target/classes/ysu/application/Contraller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/java/ysu/application/MainConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainConsumer/src/main/java/cn/yd/springboot/MainConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/java/ysu/application/RedisSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainConsumer/src/main/java/cn/yd/springboot/RedisSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/java/ysu/application/controller/hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainConsumer/src/main/java/cn/yd/springboot/controller/hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/Contraller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/Contraller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/Contraller/PersonalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/Contraller/PersonalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/Contraller/SectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/Contraller/SectionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/MainProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/MainProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/service/IndexService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/service/IndexService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/service/PersonalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/service/PersonalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/service/SectionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/service/SectionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/PostConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/PostConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/RedisSessionConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/RedisSessionConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/controller/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/fastdfs/FastDFSClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/fastdfs/FastDFSClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/fastdfs/ImgInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/fastdfs/ImgInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/po/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/CommentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/po/CommentExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/Content.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/po/Content.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/ContentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/po/ContentExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/Label.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/po/Label.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/LabelExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/po/LabelExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/po/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/PostExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/po/PostExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/PostQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/po/PostQueryVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/po/Section.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/SectionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/po/SectionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/po/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/UserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/po/UserExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/Viewlike.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/po/Viewlike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/ViewlikeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/po/ViewlikeExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/service/PostFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/service/PostFeignService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/templates/page-categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/target/classes/templates/page-categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/templates/page-single-user.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/target/classes/templates/page-single-user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/templates/page-single_categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/target/classes/templates/page-single_categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/templates/page-single_followers.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/target/classes/templates/page-single_followers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/templates/page-single_replies.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/target/classes/templates/page-single_replies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/templates/page-single_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/target/classes/templates/page-single_settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/templates/page-single_threads.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/target/classes/templates/page-single_threads.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/MainConsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/Model/mapper/AttentionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/Model/mapper/BannedMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/Model/mapper/CollectionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/Model/mapper/CommentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/Model/mapper/ContentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/Model/mapper/LabelMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/Model/mapper/MessageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/Model/mapper/PermissionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/Model/mapper/PostMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/Model/mapper/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/Model/mapper/RolePermissionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/Model/mapper/SectionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/Model/mapper/SubscriptionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/Model/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/Model/po/PostVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/MainCons/target/classes/ysu/Model/po/PostVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/application/Contraller/CategoriesController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/application/Contraller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/application/Contraller/PersonalPostController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/application/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/application/RedisSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/application/service/IndexService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/application/service/LoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/application/service/PersonalPostService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCons/target/classes/ysu/application/service/SectionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/.rebel-remote.xml.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/.rebel.xml.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/MainConsumer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/java/cn/yd/springboot/MainConsumerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/java/cn/yd/springboot/RedisSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/java/cn/yd/springboot/controller/hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/rebel-remote.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/rebel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/external/perfect-scrollbar/perfect-scrollbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/external/perfect-scrollbar/perfect-scrollbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/favicon/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/images/single-topic-img01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/images/single-topic-img02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/images/single-topic-img03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/images/single-topic-img04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/images/single-topic-img05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/images/single-topic-img06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/images/single-topic-img07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/images/single-topic-img08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/js/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/js/bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_btn-create-topic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_categories_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_categories_single.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_custom_magnific_popup.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_default_tabs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_editor.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_followers_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_gallery.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_header_objects.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_layout-tab.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_layout404.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_login.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_messages_layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_mobile-menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_pageContent.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_popup_settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_single-topic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_topic_list_item.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_user_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/static/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/_demo_modal-advancedSearch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/_demo_modal-age-confirmation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/_demo_modal-level-up.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/error404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/messages-compose.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/messages-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/page-categories-single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/page-categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/page-create-topic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/page-login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/page-signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/page-single-topic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/page-single-user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/page-single_categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/page-single_followers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/page-single_replies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/page-single_settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/page-single_threads.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/page-tabs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/src/main/resources/templates/page-tabs_guidelines.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/rebel-remote.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/rebel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/external/perfect-scrollbar/perfect-scrollbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/external/perfect-scrollbar/perfect-scrollbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/favicon/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/images/single-topic-img01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/images/single-topic-img02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/images/single-topic-img03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/images/single-topic-img04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/images/single-topic-img05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/images/single-topic-img06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/images/single-topic-img07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/images/single-topic-img08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/js/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/js/bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_btn-create-topic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_categories_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_categories_single.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_custom_magnific_popup.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_default_tabs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_editor.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_followers_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_gallery.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_header_objects.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_layout-tab.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_layout404.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_login.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_messages_layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_mobile-menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_pageContent.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_popup_settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_single-topic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_topic_list_item.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_user_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/static/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/_demo_modal-advancedSearch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/_demo_modal-age-confirmation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/_demo_modal-level-up.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/error404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/messages-compose.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/messages-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/page-categories-single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/page-categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/page-create-topic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/page-login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/page-signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/page-single-topic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/page-single-user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/page-single_categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/page-single_followers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/page-single_replies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/page-single_settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/page-single_threads.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/page-tabs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/templates/page-tabs_guidelines.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/ysu/application/MainConsumerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/ysu/application/RedisSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainConsumer/target/classes/ysu/application/controller/hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/MainProvider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MainProvider/MainProvider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/Contraller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/Contraller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/Contraller/PersonalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/Contraller/PersonalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/service/IndexService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/service/IndexService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/service/PersonalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/service/PersonalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/service/SectionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/service/SectionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/src/main/java/ysu/Model/po/PostVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainProvider/src/main/java/ysu/Model/po/PostVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/target/classes/ysu/Model/po/PostVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/MainProvider/target/classes/ysu/Model/po/PostVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/target/classes/ysu/application/Contraller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/target/classes/ysu/application/Contraller/PersonalController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/target/classes/ysu/application/Contraller/SectionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/target/classes/ysu/application/MainProviderApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/target/classes/ysu/application/service/IndexService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/target/classes/ysu/application/service/PersonalService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProvider/target/classes/ysu/application/service/SectionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementConsumer/ManagementConsumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementConsumer/ManagementConsumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagementProvider/ManagementProvider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ManagementProvider/ManagementProvider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostConsumer/PostConsumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/PostConsumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostConsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/po/PostQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/po/PostQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/service/PostFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/service/PostFeignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/resources/static/js/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/resources/static/js/bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/resources/templates/page-create-topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/resources/templates/page-create-topic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/resources/templates/page-single-topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/resources/templates/page-single-topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/PostConsumerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/RedisSessionConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/controller/PostController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/fastdfs/FastDFSClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/fastdfs/ImgInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/Comment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/CommentExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/CommentExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/CommentExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/CommentExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/Content.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/ContentExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/ContentExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/ContentExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/ContentExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/Label.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/LabelExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/LabelExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/LabelExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/LabelExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/Post.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/PostExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/PostExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/PostExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/PostExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/PostQueryVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/Section.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/SectionExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/SectionExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/SectionExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/SectionExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/UserExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/UserExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/UserExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/UserExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/Viewlike.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/ViewlikeExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/ViewlikeExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/ViewlikeExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/po/ViewlikeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/ysu/application/service/PostFeignService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostConsumer/src/main/resources/templates/page-user-posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/src/main/resources/templates/page-user-posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/cn/yd/springboot/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/target/classes/cn/yd/springboot/controller/PostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/cn/yd/springboot/service/PostFeignService.class" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/target/classes/cn/yd/springboot/service/PostFeignService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/static/js/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/static/js/bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/templates/page-create-topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/target/classes/templates/page-create-topic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/templates/page-single-topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/target/classes/templates/page-single-topic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostConsumer/target/classes/templates/page-user-posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/PostConsumer/target/classes/templates/page-user-posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostProvider/PostProvider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PostProvider/PostProvider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/controller/PostController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/service/PostService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/service/impl/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/service/impl/PostServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zuul/src/main/java/ysu/application/SpringcloudSessionZuulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Zuul/src/main/java/cn/yd/springboot/SpringcloudSessionZuulApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/java/ysu/application/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/java/cn/yd/springboot/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/controller/PostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/service/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/service/PostService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/service/impl/PostServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/PostProvider/target/classes/cn/yd/springboot/service/impl/PostServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zuul/Zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Zuul/Zuul.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zuul/target/classes/ysu/application/SpringcloudSessionZuulApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eurekaserver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/eurekaserver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/classes/ysu/application/EurekaServerApplication.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/Zuul/target/" />
@@ -116,6 +296,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="ComposerSettings">
     <execution>
       <executable />
@@ -125,12 +308,15 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/IndexController.java">
+        <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/PersonalPostController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="52" column="97" selection-start-line="52" selection-start-column="97" selection-end-line="52" selection-end-column="97" />
+            <state relative-caret-position="187">
+              <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,20 +324,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/controller/PostController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="69" column="42" lean-forward="true" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
+            <state relative-caret-position="206">
+              <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5218#5219#0" expanded="true" />
+                <element signature="e#5242#5243#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/resources/templates/page-single-topic.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="245" column="107" selection-start-line="245" selection-start-column="107" selection-end-line="245" selection-end-column="107" />
             </state>
           </provider>
         </entry>
@@ -159,11 +338,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/service/PostFeignService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/resources/templates/page-single-topic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="347" column="188" selection-start-line="347" selection-start-column="188" selection-end-line="347" selection-end-column="188" />
             </state>
           </provider>
         </entry>
@@ -171,8 +356,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/controller/PostController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="99" column="44" lean-forward="true" selection-start-line="99" selection-start-column="44" selection-end-line="99" selection-end-column="44" />
+            <state relative-caret-position="168">
+              <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2186#2187#0" expanded="true" />
+                <element signature="e#2248#2249#0" expanded="true" />
+                <element signature="e#3717#3718#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,47 +371,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/service/PostService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="190">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/service/impl/PostServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="185" column="27" lean-forward="true" selection-start-line="185" selection-start-column="27" selection-end-line="185" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/service/impl/PostServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/resources/templates/page-create-topic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="160" column="38" selection-start-line="160" selection-start-column="38" selection-end-line="160" selection-end-column="38" />
+            <state relative-caret-position="97">
+              <caret line="295" column="161" selection-start-line="295" selection-start-column="161" selection-end-line="295" selection-end-column="161" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/templates/page-categories-single.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="277" column="28" lean-forward="true" selection-start-line="277" selection-start-column="28" selection-end-line="277" selection-end-column="39" />
               <folding>
-                <element signature="e#4997#4998#0" expanded="true" />
+                <element signature="n#ul#0;n#li#3;n#ul#0;n#nav#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#select#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#1;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#a#0;n#h6#0;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#svg#0;n#a#0;n#h6#0;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#h6#0;n#div#1;n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#a#0;n#h6#0;n#div#1;n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/controller/TestController.java">
+        <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/PostConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/PostProviderApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="457">
+              <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+              <folding>
+                <element signature="e#2301#2302#0" expanded="true" />
+                <element signature="e#2373#2374#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -237,13 +455,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>btn btn-primary</find>
-      <find>gologi</find>
-      <find>col-auto ml-auto</find>
-      <find>main</find>
-      <find>href=&quot;page-single-topic.html&quot;</find>
-      <find>th:</find>
-      <find>form</find>
+      <find>session.user.id</find>
+      <find>session?.user?.id</find>
+      <find>session？.user？.id</find>
+      <find>8011</find>
+      <find>session</find>
+      <find>26</find>
+      <find>golog</find>
+      <find>follo</find>
+      <find>af</find>
+      <find>span_follow</find>
+      <find>title</find>
+      <find>follow</find>
+      <find>azyu</find>
+      <find>tt-logo</find>
+      <find>index.</find>
+      <find>1</find>
+      <find>islogin</find>
+      <find>getSe</find>
+      <find>az</find>
+      <find>create_</find>
+      <find>tt-desktop-menu</find>
+      <find>xlink:href=&quot;#icon-create_new&quot;</find>
+      <find>Trending</find>
+      <find>#icon-create_new</find>
+      <find>postvo</find>
+      <find>New</find>
+      <find>Categories</find>
+      <find>img</find>
+      <find>option</find>
+      <find>getP</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -252,20 +493,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/Service/UploadService.java" />
-        <option value="$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/PostProvider/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/po/User.java" />
-        <option value="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/po/User.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/MainCons/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/MainProvider/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/Contraller/PersonalController.java" />
-        <option value="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/service/SectionService.java" />
-        <option value="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/service/IndexService.java" />
         <option value="$PROJECT_DIR$/MainProvider/src/main/java/ysu/application/Contraller/SectionController.java" />
         <option value="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/service/LoginService.java" />
-        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java" />
         <option value="$PROJECT_DIR$/MainCons/src/main/java/ysu/Model/po/User.java" />
         <option value="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/RedisConfig.java" />
         <option value="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/mapper/CollectionMapper.java" />
@@ -273,36 +502,76 @@
         <option value="$PROJECT_DIR$/MainCons/src/main/java/ysu/MainConsApplication.java" />
         <option value="$PROJECT_DIR$/PostConsumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/service/PostService.java" />
-        <option value="$PROJECT_DIR$/MainCons/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/MainCons/src/main/java/ysu/application/Contraller/IndexController.java" />
         <option value="$PROJECT_DIR$/PostConsumer/src/main/java/ysu/application/controller/PostController.java" />
+        <option value="$PROJECT_DIR$/MainConsumer/src/main/java/cn/yd/springboot/MainConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/page-login.html" />
+        <option value="$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/po/AttentionVo.java" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/java/ysu/Model/po/PostVo.java" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/po/PostVo.java" />
+        <option value="$PROJECT_DIR$/MainProvider/src/main/java/ysu/Model/po/PostVo.java" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/po/User.java" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/service/IndexService.java" />
+        <option value="$PROJECT_DIR$/MainCons/pom.xml" />
+        <option value="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/Contraller/IndexController.java" />
+        <option value="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/service/IndexService.java" />
+        <option value="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/service/UploadService.java" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/UploadService.java" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/service/UploadService.java" />
+        <option value="$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/WebConfig.java" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/service/PersonalPostService.java" />
+        <option value="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/service/PersonalService.java" />
+        <option value="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/Contraller/PersonalController.java" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/UserController.java" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/PersonalPostController.java" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/IndexController.java" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_settings.html" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_threads.html" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-categories.html" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_categories.html" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_followers.html" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single-user.html" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_replies.html" />
+        <option value="$PROJECT_DIR$/MainCons/src/main/resources/templates/page-categories-single.html" />
+        <option value="$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/service/SectionService.java" />
         <option value="$PROJECT_DIR$/PostConsumer/src/main/resources/templates/page-single-topic.html" />
         <option value="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/service/PostFeignService.java" />
-        <option value="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/controller/PostController.java" />
-        <option value="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/controller/PostController.java" />
         <option value="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/service/PostService.java" />
         <option value="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/service/impl/PostServiceImpl.java" />
+        <option value="$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/controller/PostController.java" />
+        <option value="$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/controller/PostController.java" />
+        <option value="$PROJECT_DIR$/PostConsumer/src/main/resources/templates/page-create-topic.html" />
       </list>
     </option>
   </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MainProvider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="367" />
-    <option name="width" value="1943" />
-    <option name="height" value="1090" />
+    <option name="x" value="55" />
+    <option name="y" value="145" />
+    <option name="width" value="1585" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -313,51 +582,25 @@
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="MainCons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="MainCons" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginConsumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginConsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="MainCons" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="MainCons" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -365,7 +608,7 @@
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="MainCons" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -374,27 +617,17 @@
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="MainCons" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Contraller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginConsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="MainCons" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -402,7 +635,7 @@
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="MainCons" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -411,45 +644,7 @@
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
               <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginProvider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="MainProvider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
@@ -513,6 +708,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="PostConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
+              <item name="PostConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
@@ -589,36 +803,12 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="Zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="Zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="Zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.ysu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OriginBBS" type="462c0819:PsiDirectoryNode" />
-              <item name="Zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -629,24 +819,39 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MainCons/src/main/resources/static/js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\OriginBBS(1)\OriginBBS\MainCons\src\main\java\cn\yd\springboot" />
+      <recent name="C:\Users\Administrator\Desktop\OriginBBS(1)\OriginBBS\MainCons\src\main\resources\static\js" />
+      <recent name="C:\Users\Administrator\Desktop\OriginBBS(1)\OriginBBS\PostConsumer\src\main\resources\static\js" />
+      <recent name="C:\Users\Administrator\Desktop\OriginBBS(1)\OriginBBS\PostProvider\src\main\java\cn\yd\springboot" />
+      <recent name="C:\Users\Administrator\Desktop\OriginBBS(1)\OriginBBS\PostProvider\src\main\java\cn\yd\springboot\service\impl" />
+      <recent name="C:\Users\Administrator\Desktop\OriginBBS(1)\OriginBBS\PostProvider\src\main\java\cn\yd\springboot\service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.yd.springboot.Contraller" />
+      <recent name="cn.yd.springboot.service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\OriginBBS(1)\OriginBBS\PostConsumer\src\main\resources\static\js" />
+      <recent name="C:\Users\Administrator\Desktop\OriginBBS(1)\OriginBBS\PostConsumer\src\main\resources\static" />
       <recent name="C:\Users\Administrator\Desktop\OriginBBS(1)\OriginBBS\MainCons\src\main\java\ysu\application" />
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -658,7 +863,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PostConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.SpringcloudSessionZuulApplication (1)">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eurekaserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.yd.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.yd.springboot.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="LoginConsumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.yd.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.yd.springboot.LoginConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="LoginProvider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.yd.springboot.LoginProviderApplication" />
@@ -670,11 +901,11 @@
       <module name="MainCons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ysu.*" />
+          <option name="PATTERN" value="cn.yd.springboot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ysu.MainConsApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.yd.springboot.MainConsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -690,31 +921,11 @@
       <module name="MainProvider" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ysu.application.*" />
+          <option name="PATTERN" value="cn.yd.springboot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ysu.application.MainProviderApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="MainProvider" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ysu.MainProviderApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="PostConsumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ysu.application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ysu.application.PostConsumerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.yd.springboot.MainProviderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -739,6 +950,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringcloudSessionZuulApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.yd.springboot.SpringcloudSessionZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringcloudSessionZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ysu.SpringcloudSessionZuulApplication" />
@@ -749,10 +967,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.PostConsumerApplication" />
-        <item itemvalue="Spring Boot.PostConsumerApplication (1)" />
         <item itemvalue="Spring Boot.MainConsApplication" />
-        <item itemvalue="Spring Boot.MainConsApplication (1)" />
         <item itemvalue="Spring Boot.MainProviderApplication (1)" />
+        <item itemvalue="Spring Boot.LoginConsumerApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -766,12 +984,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566441143146</updated>
-      <workItem from="1566441151556" duration="26853000" />
+      <workItem from="1566441151556" duration="30042000" />
+      <workItem from="1566521658885" duration="16756000" />
+      <workItem from="1566549036890" duration="44723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26853000" />
+    <option name="totallyTimeSpent" value="91521000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -784,84 +1004,89 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="JRebel" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Designer" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28150135" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2761394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" weight="0.0978836" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936507" />
-      <window_info anchor="bottom" id="Java Enterprise" weight="0.32936507" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="JRebel Executor" />
-      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936507" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41666666" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994709" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936507" />
-      <window_info anchor="right" id="Maven" weight="0.1816354" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="CDI" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" weight="0.3297587" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.49932975" weight="0.49739584" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.43360433" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.3939394" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32936507" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.7057292" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32936507" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.50067025" side_tool="true" weight="0.44579947" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" sideWeight="0.50067025" side_tool="true" weight="0.3292011" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.32936507" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.1816354" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="CDI" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297587" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="11" weight="0.26742628" />
     </layout>
     <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="JRebel" order="1" side_tool="true" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="7" weight="0.28150135" />
-      <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.1957672" />
-      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32936507" />
-      <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.32936507" />
-      <window_info anchor="bottom" id="Database Changes" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="JRebel Executor" order="8" />
-      <window_info anchor="bottom" id="JRebel Console" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="10" />
-      <window_info anchor="bottom" id="Find" order="11" weight="0.32936507" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" visible="true" weight="0.48015872" />
-      <window_info anchor="bottom" id="Debug" order="13" weight="0.3994709" />
-      <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="16" weight="0.32936507" />
-      <window_info anchor="right" id="Maven" order="0" weight="0.1816354" />
-      <window_info anchor="right" id="Palette" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.06434316" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.49932975" visible="true" weight="0.44579947" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.43360433" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.3939394" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32936507" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.7063492" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32936507" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.50067025" side_tool="true" weight="0.44579947" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" sideWeight="0.50067025" side_tool="true" weight="0.3292011" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.32936507" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.1816354" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="CDI" order="6" />
-      <window_info anchor="right" id="Bean Validation" order="7" weight="0.3297587" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297587" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="11" weight="0.26742628" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -870,12 +1095,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/IndexController.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java</url>
           <line>37</line>
@@ -896,69 +1115,109 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.11.RELEASE/spring-context-5.0.11.RELEASE.jar!/org/springframework/ui/ModelMap.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="323">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.11.RELEASE/spring-context-5.0.11.RELEASE.jar!/org/springframework/ui/ExtendedModelMap.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="209">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/Contraller/PersonalController.java">
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/page-single_settings.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        <state relative-caret-position="107">
+          <caret line="2579" selection-start-line="2579" selection-end-line="2672" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/service/UploadService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1295">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#2653#2654#0" expanded="true" />
+            <element signature="e#2720#2721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/service/UploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single-topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/Contraller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+          <folding>
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/po/Post.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostConsumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/po/Post.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/service/SectionService.java">
+    <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/resources/static/alertMsg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state>
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/Contraller/SectionController.java">
+    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/MainProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.7.0/feign-core-9.7.0.jar!/feign/ReflectiveFeign.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="348" selection-start-line="348" selection-end-line="348" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="152">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -969,193 +1228,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/PersonalPostController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginProvider/src/main/java/cn/yd/springboot/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="64" column="14" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/templates/messages-compose.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/ysu/Model/po/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/po/Content.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/mapper/SectionMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/po/Post.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/po/Attention.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/mapper/ContentMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/po/CommentVo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/po/Subscription.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/mapper/PostMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/po/Collection.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/mapper/CollectionMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/ysu/MainConsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/page-login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/page-single_threads.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/Service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/PostConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/Service/UploadService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/MainProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/resources/templates/page-single_settings.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/Contraller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/service/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/CategoriesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="43" selection-start-line="43" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/service/IndexService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="19" column="68" selection-start-line="18" selection-start-column="3" selection-end-line="19" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="264" column="64" selection-start-line="264" selection-start-column="64" selection-end-line="264" selection-end-column="64" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/ysu/application/service/PostService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="14" column="110" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="110" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="52" column="97" selection-start-line="52" selection-start-column="97" selection-end-line="52" selection-end-column="97" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1166,68 +1242,486 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/resources/templates/page-single-topic.html">
+    <entry file="file://$PROJECT_DIR$/LoginConsumer/src/main/java/cn/yd/springboot/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="245" column="107" selection-start-line="245" selection-start-column="107" selection-end-line="245" selection-end-column="107" />
+        <state relative-caret-position="-1594">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/PostConsumerApplication.java">
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/po/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="456">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/service/PostFeignService.java">
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/static/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/service/PersonalPostService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="-1">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/controller/TestController.java">
+    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/Contraller/PersonalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/MainConsApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/3.0.11.RELEASE/thymeleaf-3.0.11.RELEASE.jar!/org/thymeleaf/templateparser/markup/AbstractMarkupTemplateParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/service/PersonalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_settings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="56" column="198" selection-start-line="56" selection-start-column="198" selection-end-line="56" selection-end-column="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_threads.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="94" column="29" lean-forward="true" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
+          <folding>
+            <element signature="n#ul#0;n#li#3;n#ul#0;n#nav#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/templates/page-categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="363" column="4" lean-forward="true" selection-start-line="350" selection-end-line="363" selection-end-column="4" />
+          <folding>
+            <element signature="e#610#862#0" />
+            <element signature="n#ul#0;n#li#3;n#ul#0;n#nav#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="2395" column="4" selection-start-line="2395" selection-start-column="4" selection-end-line="2395" selection-end-column="4" />
+          <folding>
+            <element signature="n#ul#0;n#li#3;n#ul#0;n#nav#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_followers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="2426" column="4" selection-start-line="2426" selection-start-column="4" selection-end-line="2426" selection-end-column="4" />
+          <folding>
+            <element signature="n#ul#0;n#li#3;n#ul#0;n#nav#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single_replies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="2437" column="4" selection-start-line="2437" selection-start-column="4" selection-end-line="2437" selection-end-column="4" />
+          <folding>
+            <element signature="n#ul#0;n#li#3;n#ul#0;n#nav#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="292" column="18" lean-forward="true" selection-start-line="230" selection-start-column="10" selection-end-line="292" selection-end-column="18" />
+          <folding>
+            <element signature="e#611#863#0" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#li#3;n#ul#0;n#nav#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#button#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#button#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#button#0;n#div#0;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#button#0;n#div#0;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#button#1;n#div#0;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#button#1;n#div#0;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#4;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#5;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#select#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#h6#0;n#div#1;n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#a#0;n#h6#0;n#div#1;n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#3;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h6#0;n#div#1;n#div#3;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#h6#0;n#div#1;n#div#3;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#button#0;n#div#4;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#button#0;n#div#4;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#span#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#1;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#2;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#span#2;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#7;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#label#0;n#div#0;n#div#7;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#7;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#label#0;n#div#1;n#div#7;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#7;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#label#0;n#div#2;n#div#7;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#8;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#i#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#i#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#i#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#label#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#label#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#label#0;n#div#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#label#0;n#div#2;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#select#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#select#0;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#7;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#7;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#select#0;n#div#0;n#div#0;n#div#7;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#7;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#8;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#select#0;n#div#8;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#9;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#0;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#1;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#0;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#1;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#2;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#path#0;n#g#2;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#3;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#4;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#5;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#6;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#0;n#g#6;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#1;n#g#6;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#2;n#g#6;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#7;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#8;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#9;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#10;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#11;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#12;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#13;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#14;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#15;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#16;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#17;n#symbol#41;n#svg#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/CategoriesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/service/SectionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/ysu/Model/po/SectionVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/Contraller/SectionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/service/IndexService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="53" column="29" lean-forward="true" selection-start-line="52" selection-start-column="11" selection-end-line="53" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2978#2979#0" expanded="true" />
+            <element signature="e#3038#3039#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainProvider/src/main/java/cn/yd/springboot/service/SectionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="71" column="29" lean-forward="true" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/PersonalPostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/java/cn/yd/springboot/Contraller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+          <folding>
+            <element signature="e#2301#2302#0" expanded="true" />
+            <element signature="e#2373#2374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/templates/page-categories-single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="277" column="28" lean-forward="true" selection-start-line="277" selection-start-column="28" selection-end-line="277" selection-end-column="39" />
+          <folding>
+            <element signature="n#ul#0;n#li#3;n#ul#0;n#nav#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#select#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#1;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#h6#0;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#a#0;n#h6#0;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h6#0;n#div#1;n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#h6#0;n#div#1;n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainCons/src/main/resources/templates/page-single-user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="67" column="198" lean-forward="true" selection-start-line="66" selection-start-column="32" selection-end-line="67" selection-end-column="198" />
+          <folding>
+            <element signature="n#ul#0;n#li#3;n#ul#0;n#nav#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/service/PostService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/controller/PostController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="99" column="44" lean-forward="true" selection-start-line="99" selection-start-column="44" selection-end-line="99" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/controller/PostController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="69" column="42" lean-forward="true" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/service/impl/PostServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="160" column="38" selection-start-line="160" selection-start-column="38" selection-end-line="160" selection-end-column="38" />
+        <state relative-caret-position="103">
+          <caret line="185" column="27" lean-forward="true" selection-start-line="185" selection-start-column="27" selection-end-line="185" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostProvider/src/main/java/cn/yd/springboot/controller/PostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
           <folding>
-            <element signature="e#4997#4998#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2186#2187#0" expanded="true" />
+            <element signature="e#2248#2249#0" expanded="true" />
+            <element signature="e#3717#3718#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/service/PostFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/java/cn/yd/springboot/controller/PostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5218#5219#0" expanded="true" />
+            <element signature="e#5242#5243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/resources/templates/page-single-topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="347" column="188" selection-start-line="347" selection-start-column="188" selection-end-line="347" selection-end-column="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostConsumer/src/main/resources/templates/page-create-topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="295" column="161" selection-start-line="295" selection-start-column="161" selection-end-line="295" selection-end-column="161" />
         </state>
       </provider>
     </entry>

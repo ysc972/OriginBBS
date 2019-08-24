@@ -6,6 +6,16 @@ public class PostVo {
     private Post post;
     private List<Label> labelList;
     private Section section;
+    private User user;
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
     public Post getPost() {
         return post;
     }

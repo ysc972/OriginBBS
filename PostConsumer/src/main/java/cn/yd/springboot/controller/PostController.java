@@ -3,6 +3,8 @@ package cn.yd.springboot.controller;
 import cn.yd.springboot.po.*;
 import cn.yd.springboot.service.PostFeignService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.messaging.handler.annotation.SendTo;
+import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -12,6 +14,8 @@ import cn.yd.springboot.fastdfs.ImgInfo;
 
 import com.alibaba.fastjson.JSON;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.util.Date;
 import java.util.List;
 
@@ -25,6 +29,8 @@ public class PostController {
     @Autowired
     private PostFeignService postFeignService;
 
+    @Autowired
+    private SimpMessagingTemplate template;
 
     @GetMapping("/findUserById/{id}")
     @ResponseBody
@@ -42,14 +48,20 @@ public class PostController {
     }
 
     @RequestMapping("/toCreatePost")
-    public String toCreatePost(){
-
+    public String toCreatePost(Model model){
+        List<Section> sectionList = postFeignService.findSections();
+        model.addAttribute("sectionList",sectionList);
         return "page-create-topic";
     }
 
+    @SendTo("/topic/greetings")
     @PostMapping("/uploadPost")
     public String uploadPost(PostQueryVo postQueryVo){
 
+        String content1="您订阅的博主新发了一条帖子。";
+        System.out.println(content1);
+        template.convertAndSend("/topic/greetings",content1);
+        System.out.println(content1);
         Integer sectionId = postFeignService.findSectionId(postQueryVo.getSection().getSectionName());
         String content = JSON.toJSONString(postQueryVo.getContent());
         Integer contentId = postFeignService.saveContent(content);
@@ -61,31 +73,40 @@ public class PostController {
         Integer postId = postFeignService.savePost(postString);
         postFeignService.updateContentPostid(contentId,postId);
         postFeignService.saveLabels(postQueryVo.getLabels(),postId);
-        return "page-create-topic";
+        return "redirect:/findPostById?postId="+postId;
     }
 
-    @GetMapping("/findPostById")
-    public String findPostById(int postId,int userId, Model model) throws Exception {
+    @RequestMapping("/gotologin")
+    public String gotologin(HttpServletRequest request,String url,String sufix){
+        if(!sufix.equals("")||sufix == null){
+            return "redirect:http://192.168.242.1:8011/tologin?url="+url+"&sufix="+sufix;
+        }
+        return "redirect:http://192.168.242.1:8011/tologin?url="+url;
+    }
 
-        User user = postFeignService.findUserById(userId);
-        model.addAttribute("postuser",user);
-        Viewlike viewlike = postFeignService.findViewlike(userId,postId);
-        model.addAttribute("viewlike",viewlike);
+    @RequestMapping("/getPersonalPost")
+    public String getPersonalPost(HttpServletRequest request,String userId){
+
+        return "redirect:http://192.168.242.1:8013/getPersonalPost?userId="+userId;
+    }
+    @GetMapping("/findPostById")
+    public String findPostById(@RequestParam("postId") int postId, Model model, HttpSession session) throws Exception {
+
         Post post = postFeignService.findPostById(postId);
+        User postuser = postFeignService.findUserById(post.getUserId());
+        model.addAttribute("postuser",postuser);
         List<Label> labelList = postFeignService.findLabelsByPostid(postId);
         Content content = postFeignService.findContentByPostid(postId);
         model.addAttribute("content",content);
         model.addAttribute("labelList",labelList);
         model.addAttribute("post",post);
-        List<List<Comment>> commentLists = postFeignService.findCommentsByPostid(postId);
-        model.addAttribute("commentLists",commentLists);
-        System.out.println(commentLists);
+        List<List<CommentQueryVo>> comVoLists = postFeignService.findCommentsByPostid(postId);
+        model.addAttribute("comVoLists",comVoLists);
         return "page-single-topic";
     }
 
     @PostMapping("/uploadComment")
     public String uploadComment(Comment comment,int userId){
-
         String commentString = JSON.toJSONString(comment);
         boolean bool = postFeignService.saveComment(commentString);
         System.out.println(bool);
@@ -93,11 +114,9 @@ public class PostController {
     }
 
     @PostMapping("/upadatePost")
-    @ResponseBody
     public boolean upadatePost(Post post){
         String postString = JSON.toJSONString(post);
-        boolean bool = postFeignService.uploadPost(postString);
-        System.out.println(bool);
+        postFeignService.uploadPost(postString);
         return true;
     }
 
@@ -115,6 +134,11 @@ public class PostController {
         imgInfo.setUrl(values);
         System.out.println(imgInfo.toString());
         return imgInfo;
+    }
+
+    @RequestMapping("/toIndex")
+    public String toindex(){
+        return "redirect:http://192.168.242.1:8013/index";
     }
 
 }

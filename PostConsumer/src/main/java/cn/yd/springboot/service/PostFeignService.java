@@ -25,7 +25,7 @@ public interface PostFeignService {
     Integer savePost(@RequestParam("post") String post);
 
     @RequestMapping(value = "/saveLabels",method = RequestMethod.POST)
-    boolean saveLabels(@RequestParam("labels") String labels,@RequestParam("postId") int postId);
+    boolean saveLabels(@RequestParam("labels") String labels, @RequestParam("postId") int postId);
 
     @GetMapping(value = "/findPostById")
     Post findPostById(@RequestParam("postId") int postId);
@@ -37,13 +37,16 @@ public interface PostFeignService {
     Content findContentByPostid(@RequestParam("postId") int postId);
 
     @GetMapping(value = "/updateContentPostid")
-    boolean updateContentPostid(@RequestParam("contentId") int contentId,@RequestParam("postId") int postId);
+    boolean updateContentPostid(@RequestParam("contentId") int contentId, @RequestParam("postId") int postId);
 
     @PostMapping(value = "findLabelsByPostid")
     List<Label> findLabelsByPostid(@RequestParam("postId") int postId);
 
+    @PostMapping(value = "findSections")
+    List<Section> findSections();
+
     @PostMapping(value = "findCommentsByPostid")
-    List<List<Comment>> findCommentsByPostid(@RequestParam("postId") int postId);
+    List<List<CommentQueryVo>> findCommentsByPostid(@RequestParam("postId") int postId);
 
     @PostMapping(value = "saveComment")
     boolean saveComment(@RequestParam("comment") String comment);

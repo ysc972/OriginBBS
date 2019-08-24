@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.*;
 import ysu.Model.po.Post;
 import ysu.Model.po.PostVo;
 import com.alibaba.fastjson.JSON;
+import ysu.Model.po.User;
+
 import java.util.List;
 
 @RestController
@@ -34,5 +36,10 @@ public class IndexController {
 
         List<Post> listpost=JSON.parseArray(list,Post.class);
         return indexService.getVo(listpost);
+    }
+
+    @RequestMapping(value = "getUser",method = RequestMethod.POST)
+    public User getUser(@RequestParam("userId") int userId){
+        return indexService.getUser(userId);
     }
 }

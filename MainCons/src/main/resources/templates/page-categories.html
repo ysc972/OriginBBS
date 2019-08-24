@@ -10,6 +10,18 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .round_icon{
+            margin-left: 20px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+    </style>
 </head>
 <body>
 <!-- tt-mobile menu -->
@@ -42,20 +54,20 @@
                 <!-- /toggle mobile menu -->
                 <!-- logo -->
                 <div class="tt-logo">
-                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                    <a href="/index"><img src="images/logo.png" alt=""></a>
                 </div>
-                <!-- /logo -->
-                <!-- desctop menu -->
-                  <div class="tt-desktop-menu">
+                <div class="tt-desktop-menu">
                     <nav>
                         <ul>
-                            <li><a href="page-categories.html"><span>Categories</span></a></li>
-                            <li><a href="page-tabs.html"><span>Trending</span></a></li>
-                            <li><a href="page-create-topic.html"><span>New</span></a></li>
+                            <li><a href="#"><span>Categories</span></a></li>
+                            <li><a href="/toPageTab"><span>Trending</span></a></li>
+                            <li>
+                                <a th:if="${session.islogin}" href="/toCreatePost"><span>New</span></a>
+                                <a th:if="${not session.islogin}" th:href="@{/gologin(url=${#httpServletRequest.getRequestURL()},sufix=${#httpServletRequest.getQueryString()})}"><span>New</span></a>
                             <li>
                                 <a href="page-single-user.html"><span>Pages</span></a>
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#">Home</a></li>
                                     <li><a href="page-single-topic.html">Single Topic</a></li>
                                     <li><a href="page-create-topic.html">Create Topic</a></li>
                                     <li><a href="page-single-user.html">Single User Activity</a></li>
@@ -165,22 +177,32 @@
                 <!-- /tt-search -->
             </div>
             <div class="col-auto ml-auto">
-                 <div class="tt-user-info d-flex justify-content-center">
-                    <a href="#" class="tt-btn-icon">
-                         <i class="tt-icon"><svg><use xlink:href="#icon-notification"></use></svg></i>
-                    </a>
-                    <div class="tt-avatar-icon tt-size-md">
-                        <i class="tt-icon"><svg><use xlink:href="#icon-ava-a"></use></svg></i>
+                <div th:if="${not session.islogin}"class="col-auto ml-auto">
+                    <div class="tt-account-btn">
+                        <a  th:href="@{/gotologin(url=${#httpServletRequest.getRequestURL()},sufix=${#httpServletRequest.getQueryString()})}"  class="btn btn-primary">Log in</a>
+                        <a href="http://192.168.160.1:8011/tologin" class="btn btn-secondary">Sign up</a>
                     </div>
-                    <div class="custom-select-01">
-                        <select>
-                            <option value="Default Sorting">azyrusmax</option>
-                            <option value="value 01">value 01</option>
-                            <option value="value 02">value 02</option>
-                        </select>
+                </div>
+                <div th:if="${session.islogin}" class="col-auto ml-auto">
+                    <div class="tt-user-info d-flex justify-content-center">
+                        <a href="#" class="tt-btn-icon">
+                            <i class="tt-icon"><svg><use xlink:href="#icon-notification"></use></svg></i>
+
+                        </a>
+                        <div class="tt-avatar-icon tt-size-md">
+                            <a th:href="@{/getPersonalPost(userId=${session.user.id})}"><img th:if="${session.user.pic}" id="img1" th:src="@{http://123.56.220.42/{pic}(pic=${session.user.pic})}" class="round_icon"  alt="">
+                        </div>
+                        <div class="custom-select-01">
+                            <select>
+                                <option value="Default Sorting" th:text="${session.user.username}"></option>
+                                <option value="value 01">value 01</option>
+                                <option value="value 02">value 02</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </header>
@@ -212,9 +234,9 @@
                     <div class="tt-item">
                         <div class="tt-item-header">
                             <ul class="tt-list-badge">
-                                <li><a href="#"><span class="tt-color01 tt-badge" th:text="${sectionvo.section.getSectionName()}"></span></a></li>
+                                <li><a th:href="@{getSectionPost(sectionId=${sectionvo.section.id})}"><span class="tt-color01 tt-badge" th:text="${sectionvo.section.getSectionName()}"></span></a></li>
                             </ul>
-                            <h6 class="tt-title"><a th:href="@{getSectionPost(sectionId=${sectionvo.section.id})}" th:text="${sectionvo.section.postNumber}"></a></h6>
+                            <h6 class="tt-title"><a  th:text="${sectionvo.section.postNumber}"></a></h6>
                         </div>
                         <div class="tt-item-layout">
                            <div class="innerwrapper">
@@ -326,7 +348,14 @@
 		</div>
 		</form>
 </div>
-<a href="page-create-topic.html" class="tt-btn-create-topic">
+<a th:if="${session.islogin}" href="/toCreatePost"  class="tt-btn-create-topic">
+    <span class="tt-icon">
+        <svg>
+          <use xlink:href="#icon-create_new"></use>
+        </svg>
+    </span>
+</a>
+<a th:if="${not session.islogin}" th:href="@{/gologin(url=${#httpServletRequest.getRequestURL()},sufix=${#httpServletRequest.getQueryString()})}" class="tt-btn-create-topic">
     <span class="tt-icon">
         <svg>
           <use xlink:href="#icon-create_new"></use>

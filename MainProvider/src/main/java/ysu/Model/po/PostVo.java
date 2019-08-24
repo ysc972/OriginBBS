@@ -1,11 +1,21 @@
 package ysu.Model.po;
 
 import java.util.List;
-import java.util.concurrent.LinkedBlockingDeque;
 
 public class PostVo {
     private Post post;
+    private List<Label> labelList;
+    private Section section;
 
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    private User user;
     public Post getPost() {
         return post;
     }
@@ -30,7 +40,6 @@ public class PostVo {
         this.section = section;
     }
 
-    private List<Label> labelList;
-    private Section section;
+
 
 }

@@ -86,6 +86,10 @@ public class PostServiceImpl implements PostService {
     @Override
     public Post findPostById(int postId) {
         Post post = postMapper.selectByPrimaryKey(postId);
+        int view = post.getView();
+        view++;
+        post.setView(view);
+        postMapper.updateByPrimaryKeySelective(post);
         return post;
     }
 
@@ -109,22 +113,35 @@ public class PostServiceImpl implements PostService {
     }
 
     @Override
-    public List<List<Comment>> findCommentsByPostid(int postId) {
+    public List<List<CommentQueryVo>> findCommentsByPostid(int postId) {
         /*先找到该帖子下的所有评论*/
         CommentExample commentExample = new CommentExample();
         CommentExample.Criteria criteria = commentExample.createCriteria();
         criteria.andPostIdEqualTo(postId);
         List<Comment> tempList = commentMapper.selectByExample(commentExample);
+        if(tempList.size()==0)
+        {
+            return new ArrayList<List<CommentQueryVo>>();
+        }
         /*再找所有根级评论*/
         ArrayList list = new ArrayList();
         for(Comment comment:tempList){
             if(comment.getParentId()==0){
                 ArrayList temp = new ArrayList();
-                temp.add(comment);
+                int userid = Integer.parseInt(comment.getUsername());
+                User user = userMapper.selectByPrimaryKey(userid);
+                CommentQueryVo commentQueryVo = new CommentQueryVo();
+                commentQueryVo.setComment(comment);
+                commentQueryVo.setUser(user);
+                temp.add(commentQueryVo);
                 int id = comment.getId();
                 for(Comment comment1:tempList){
                     if(comment1.getParentId()==id) {
-                        temp.add(comment1);
+                        User user1 = userMapper.selectByPrimaryKey(Integer.parseInt(comment1.getUsername()));
+                        CommentQueryVo commentQueryVo1 = new CommentQueryVo();
+                        commentQueryVo1.setComment(comment1);
+                        commentQueryVo1.setUser(user1);
+                        temp.add(commentQueryVo1);
                     }
                 }
                 list.add(temp);
@@ -160,6 +177,13 @@ public class PostServiceImpl implements PostService {
     @Override
     public User findUserById(int id) {
         return userMapper.selectByPrimaryKey(id);
+    }
+
+    @Override
+    public List<Section> findSections() {
+        SectionExample sectionExample = new SectionExample();
+        List<Section> sectionList = sectionMapper.selectByExample(sectionExample);
+        return sectionList;
     }
 
 }

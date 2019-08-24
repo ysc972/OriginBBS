@@ -1,5 +1,6 @@
 package cn.yd.springboot.service;
 
+import cn.yd.springboot.po.User;
 import com.github.pagehelper.PageInfo;
 import feign.Headers;
 import feign.RequestLine;
@@ -22,6 +23,7 @@ public interface IndexService {
     public List<PostVo> getTop();
     @RequestMapping(value = "getVo",method =RequestMethod.POST,consumes = "application/json")
     public List<PostVo> getvo( @RequestParam("list") String list);
-
+    @RequestMapping(value = "getUser",method = RequestMethod.POST)
+    public User getUser(@RequestParam("userId") int userId);
 
 }

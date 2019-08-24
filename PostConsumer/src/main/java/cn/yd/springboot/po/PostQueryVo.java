@@ -38,5 +38,4 @@ public class PostQueryVo {
         this.content = content;
     }
 
-
 }

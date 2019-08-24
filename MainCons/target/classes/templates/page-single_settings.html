@@ -10,6 +10,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 <!-- tt-mobile menu -->
@@ -51,7 +52,9 @@
                         <ul>
                             <li><a href="page-categories.html"><span>Categories</span></a></li>
                             <li><a href="page-tabs.html"><span>Trending</span></a></li>
-                            <li><a href="page-create-topic.html"><span>New</span></a></li>
+                            <li>
+                                <a th:if="${session.islogin}" href="/toCreatePost"><span>New</span></a>
+                                <a th:if="${not session.islogin}" th:href="@{/gologin(url=${#httpServletRequest.getRequestURL()},sufix=${#httpServletRequest.getQueryString()})}"><span>New</span></a></li>
                             <li>
                                 <a href="page-single-user.html"><span>Pages</span></a>
                                 <ul>
@@ -169,12 +172,14 @@
                     <a href="#" class="tt-btn-icon">
                          <i class="tt-icon"><svg><use xlink:href="#icon-notification"></use></svg></i>
                     </a>
-                    <div class="tt-avatar-icon tt-size-md">
-                        <i class="tt-icon"><svg><use xlink:href="#icon-ava-a"></use></svg></i>
-                    </div>
+
+                     <div class="tt-avatar-icon tt-size-md">
+                         <!--                        <i th:if="${not session.use.pic}" class="tt-icon"><svg><use xlink:href="#icon-ava-a"></use></svg></i>-->
+                         <a th:href="@{/getPersonalPost(userId=${session.user.id})}"><img th:if="${session.user.pic}" id="img1"th:src="@{http://123.56.220.42/{pic}(pic=${session.user.pic})}" class="round_icon"  alt=""></a>
+                     </div>
                     <div class="custom-select-01">
                         <select>
-                            <option value="Default Sorting">azyrusmax</option>
+                            <option  th:text="${session.user.username}"></option>
                             <option value="value 01">value 01</option>
                             <option value="value 02">value 02</option>
                         </select>
@@ -203,9 +208,9 @@
                         <li><a href="#"><span class="tt-color14 tt-badge">LVL : 26</span></a></li>
                     </ul>
                 </div>
-                <div class="tt-col-btn" id="js-settings-btn">
+                <div class="tt-col-btn" >
                     <div class="tt-list-btn">
-                        <a href="#" class="tt-btn-icon">
+                        <a href="#"  th:if="${ziji}" id="js-settings-btn" class="tt-btn-icon">
                             <svg class="tt-icon">
                               <use xlink:href="#icon-settings_fill"></use>
                             </svg>

@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import ysu.Model.mapper.LabelMapper;
 import ysu.Model.mapper.PostMapper;
 import ysu.Model.mapper.SectionMapper;
+import ysu.Model.mapper.UserMapper;
 import ysu.Model.po.*;
 
 import java.util.ArrayList;
@@ -20,6 +21,8 @@ public class SectionService {
     private LabelMapper labelMapper;
     @Autowired
     private PostMapper postMapper;
+    @Autowired
+    private UserMapper userMapper;
     public List<SectionVo> getSectionVo()
     {
         SectionExample sectionExample=new SectionExample();
@@ -65,6 +68,8 @@ public class SectionService {
         for (Post post : list) {
             PostVo vo = new PostVo();
             vo.setPost(post);
+            User user=userMapper.selectByPrimaryKey(post.getUserId());
+            vo.setUser(user);
             LabelExample labelExample = new LabelExample();
             LabelExample.Criteria criteria1= labelExample.createCriteria();
             criteria1.andPostIdEqualTo(post.getId());
@@ -83,6 +88,7 @@ public class SectionService {
         criteria.andTypeNotEqualTo("-1");
         criteria.andIsTopEqualTo(1);
         criteria.andSectionIdEqualTo(sectionid);
+
         List<Post> list=postMapper.selectByExample(example);
         List<PostVo> listvo=this.getSectionPostVo(list);
         System.out.println(listvo);

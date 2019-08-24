@@ -8,17 +8,18 @@ import java.util.List;
 
 public interface PostService {
 
-    boolean saveLabels(String labels,int postId);
+    boolean saveLabels(String labels, int postId);
     Integer saveContent(Content content);
     Integer savePost(Post post);
     Integer findSectionId(String section_name);
-    boolean updateContentPostid(int contentId,int postId);
+    boolean updateContentPostid(int contentId, int postId);
     Post findPostById(int postId);
     List<Label> findLabelsByPostid(int postId);
-    Content findContentByPostid( int postId);
-    List<List<Comment>> findCommentsByPostid(int  postId);
+    Content findContentByPostid(int postId);
+    List<List<CommentQueryVo>> findCommentsByPostid(int postId);
     boolean saveComment(Comment comment);
     boolean uploadPost(Post post);
-    Viewlike findViewlike(int userId,int postId);
+    Viewlike findViewlike(int userId, int postId);
     User findUserById(int id);
+    List<Section> findSections();
 }

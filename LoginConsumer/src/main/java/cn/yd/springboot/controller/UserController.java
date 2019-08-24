@@ -73,7 +73,10 @@ public class UserController {
      * @return
      */
     @RequestMapping("/toregist")
-    public String regiset(){return "page-signup";}
+    public String regiset(String url,HttpSession model){
+        model.setAttribute("url",url);
+        return "page-signup";
+    }
 
     /**
      * 去个人设置页面
@@ -107,6 +110,7 @@ public class UserController {
         ObjectMapper objectMapper=new ObjectMapper();
         String userJson="";
         userJson=objectMapper.writeValueAsString(user);
+        URL=(String)session.getAttribute("url");
        if(userService.isHaveByUserName(userJson)) {
            model.addAttribute("erroUsername", "用户名已存在");
        }
@@ -118,7 +122,7 @@ public class UserController {
            userService.regist(userJson);
            session.setAttribute("user",user);
            session.setAttribute("islogin",true);
-           return "index";
+           return "redirect:"+URL;
        }
        return "page-signup";
 

@@ -3,13 +3,8 @@ package cn.yd.springboot.controller;
 import cn.yd.springboot.po.*;
 import cn.yd.springboot.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import com.alibaba.fastjson.JSON;
-import org.springframework.web.multipart.MultipartFile;
-import org.springframework.web.multipart.commons.CommonsMultipartFile;
-
-import java.io.File;
 import java.util.List;
 
 @RestController
@@ -70,7 +65,7 @@ public class PostController {
     }
 
     @RequestMapping(value = "findCommentsByPostid",method = RequestMethod.POST)
-    List<List<Comment>> findCommentsByPostid(@RequestParam("postId") int postId){
+    List<List<CommentQueryVo>> findCommentsByPostid(@RequestParam("postId") int postId){
         return postService.findCommentsByPostid(postId);
     }
 
@@ -81,8 +76,11 @@ public class PostController {
         return true;
     }
 
+
+
     @RequestMapping(value = "uploadPost",method = RequestMethod.POST)
     boolean uploadPost(@RequestParam("post") String post){
+
         Post post1 = JSON.parseObject(post,Post.class);
         postService.uploadPost(post1);
         return true;
@@ -98,5 +96,10 @@ public class PostController {
     public User findUserById(@RequestParam("id") int id) throws Exception {
 
         return postService.findUserById(id);
+    }
+
+    @RequestMapping(value = "findSections",method = RequestMethod.POST)
+    List<Section> findSections(){
+        return postService.findSections();
     }
 }

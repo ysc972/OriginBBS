@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import ysu.Model.mapper.LabelMapper;
 import ysu.Model.mapper.PostMapper;
 import ysu.Model.mapper.SectionMapper;
+import ysu.Model.mapper.UserMapper;
 import ysu.Model.po.*;
 
 import java.util.ArrayList;
@@ -21,6 +22,8 @@ public class IndexService {
    private LabelMapper labelMapper;
     @Autowired
    private SectionMapper sectionMapper;
+    @Autowired
+    private UserMapper userMapper;
 
     public PageInfo getAll(int pagenum)
     {
@@ -47,6 +50,8 @@ public class IndexService {
         for (Post post : list) {
             PostVo vo = new PostVo();
             vo.setPost(post);
+            User user=userMapper.selectByPrimaryKey(post.getUserId());
+            vo.setUser(user);
             LabelExample labelExample = new LabelExample();
             LabelExample.Criteria criteria1= labelExample.createCriteria();
             criteria1.andPostIdEqualTo(post.getId());
@@ -68,6 +73,8 @@ public class IndexService {
             for (Post post : list) {
                 PostVo vo = new PostVo();
             vo.setPost(post);
+            User user=userMapper.selectByPrimaryKey(post.getUserId());
+            vo.setUser(user);
             LabelExample labelExample = new LabelExample();
             LabelExample.Criteria criteria1= labelExample.createCriteria();
             criteria1.andPostIdEqualTo(post.getId());
@@ -79,4 +86,7 @@ public class IndexService {
         return listvo;
     }
 
+    public User getUser(int userId) {
+        return userMapper.selectByPrimaryKey(userId);
+    }
 }
